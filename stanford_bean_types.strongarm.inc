@@ -135,14 +135,47 @@ function stanford_bean_types_strongarm() {
       'stanford_3_col_header' => array(
         'custom_settings' => TRUE,
       ),
+      'header_370x170' => array(
+        'custom_settings' => TRUE,
+      ),
+      'stanford_8_col_banner' => array(
+        'custom_settings' => FALSE,
+      ),
+      'stanford_banner_fw_short_credits' => array(
+        'custom_settings' => FALSE,
+      ),
+      'stanford_full_width_banner_short' => array(
+        'custom_settings' => FALSE,
+      ),
+      'stanford_header_150_width_left' => array(
+        'custom_settings' => FALSE,
+      ),
+      'large_landscape' => array(
+        'custom_settings' => FALSE,
+      ),
+      'stanford_tiles' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
         'title' => array(
-          'weight' => '-5',
+          'weight' => '1',
         ),
         'metatags' => array(
           'weight' => '40',
+        ),
+        'label' => array(
+          'weight' => '0',
+        ),
+        'revision' => array(
+          'weight' => '9',
+        ),
+        'view_mode' => array(
+          'weight' => '7',
+        ),
+        'redirect' => array(
+          'weight' => '10',
         ),
       ),
       'display' => array(
@@ -160,6 +193,10 @@ function stanford_bean_types_strongarm() {
             'visible' => TRUE,
           ),
           'stanford_3_col_header' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'header_370x170' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),
