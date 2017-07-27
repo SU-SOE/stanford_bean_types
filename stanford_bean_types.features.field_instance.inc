@@ -1331,7 +1331,7 @@ function stanford_bean_types_field_default_field_instances() {
           'view_mode' => 'stanford_4_col_header',
         ),
         'type' => 'field_collection_view',
-        'weight' => 3,
+        'weight' => 10,
       ),
       'stanford_3_col_header' => array(
         'label' => 'hidden',

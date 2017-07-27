@@ -87,6 +87,7 @@ features[field_group][] = group_s_big_text_style|bean|stanford_big_text_block|de
 features[field_group][] = group_s_circle_image_style|bean|stanford_testimonial_block|default
 features[field_group][] = group_s_contact_us_address|bean|stanford_contact|default
 features[field_group][] = group_s_credits_style|bean|stanford_testimonial_block|default
+features[field_group][] = group_s_image_container|bean|stanford_postcard|header_370x170
 features[field_group][] = group_s_image_link|bean|stanford_postcard|header_370x170
 features[field_group][] = group_s_more_link_style|bean|stanford_big_text_block|default
 features[field_group][] = group_s_more_link_style|bean|stanford_testimonial_block|default

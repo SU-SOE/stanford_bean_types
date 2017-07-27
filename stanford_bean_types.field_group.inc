@@ -182,10 +182,10 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_postcard';
   $field_group->mode = 'header_370x170';
-  $field_group->parent_name = 'group_s_image_link';
+  $field_group->parent_name = 'group_s_image_container';
   $field_group->data = array(
     'label' => 'Arrow link',
-    'weight' => '4',
+    'weight' => '11',
     'children' => array(
       0 => 'field_s_postcard_icon_image',
     ),
@@ -194,7 +194,7 @@ function stanford_bean_types_field_group_info() {
       'label' => 'Arrow link',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'postcard-linked-arrow postcard-linked-arrow-color- group-s-arrow-link field-group-div',
+        'classes' => 'postcard-linked-arrow group-s-arrow-link field-group-div',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -336,6 +336,39 @@ function stanford_bean_types_field_group_info() {
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
   $field_group->api_version = 1;
+  $field_group->identifier = 'group_s_image_container|bean|stanford_postcard|header_370x170';
+  $field_group->group_name = 'group_s_image_container';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_postcard';
+  $field_group->mode = 'header_370x170';
+  $field_group->parent_name = 'group_s_image_link';
+  $field_group->data = array(
+    'label' => 'Image Container',
+    'weight' => '9',
+    'children' => array(
+      0 => 'field_s_image_info',
+      1 => 'group_s_arrow_link',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Image Container',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'postcard-linked-img group-s-image-container field-group-div',
+        'description' => '',
+        'show_label' => '1',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_s_image_container|bean|stanford_postcard|header_370x170'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
   $field_group->identifier = 'group_s_image_link|bean|stanford_postcard|header_370x170';
   $field_group->group_name = 'group_s_image_link';
   $field_group->entity_type = 'bean';
@@ -346,8 +379,7 @@ function stanford_bean_types_field_group_info() {
     'label' => 'Image link',
     'weight' => '13',
     'children' => array(
-      0 => 'field_s_image_info',
-      1 => 'group_s_arrow_link',
+      0 => 'group_s_image_container',
     ),
     'format_type' => 'link',
     'format_settings' => array(
@@ -1136,6 +1168,7 @@ function stanford_bean_types_field_group_info() {
   t('Big Text');
   t('Circle Image');
   t('Credits');
+  t('Image Container');
   t('Image link');
   t('More Link');
   t('Postcard');
