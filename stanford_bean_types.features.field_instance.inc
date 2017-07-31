@@ -10,7 +10,7 @@
 function stanford_bean_types_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'bean-stanford_banner-field_s_image_info'
+  // Exported field_instance: 'bean-stanford_banner-field_s_image_info'.
   $field_instances['bean-stanford_banner-field_s_image_info'] = array(
     'bundle' => 'stanford_banner',
     'default_value' => NULL,
@@ -155,7 +155,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_big_text_block-field_s_big_text_block_body'
+  // 'bean-stanford_big_text_block-field_s_big_text_block_body'.
   $field_instances['bean-stanford_big_text_block-field_s_big_text_block_body'] = array(
     'bundle' => 'stanford_big_text_block',
     'default_value' => NULL,
@@ -228,7 +228,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_big_text_block-field_s_big_text_block_lead_text'
+  // 'bean-stanford_big_text_block-field_s_big_text_block_lead_text'.
   $field_instances['bean-stanford_big_text_block-field_s_big_text_block_lead_text'] = array(
     'bundle' => 'stanford_big_text_block',
     'default_value' => NULL,
@@ -301,7 +301,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_big_text_block-field_s_big_text_block_more_link'
+  // 'bean-stanford_big_text_block-field_s_big_text_block_more_link'.
   $field_instances['bean-stanford_big_text_block-field_s_big_text_block_more_link'] = array(
     'bundle' => 'stanford_big_text_block',
     'default_value' => NULL,
@@ -364,7 +364,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_contact-field_s_contact_address_line_1'
+  // 'bean-stanford_contact-field_s_contact_address_line_1'.
   $field_instances['bean-stanford_contact-field_s_contact_address_line_1'] = array(
     'bundle' => 'stanford_contact',
     'default_value' => NULL,
@@ -429,7 +429,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_contact-field_s_contact_address_line_2'
+  // 'bean-stanford_contact-field_s_contact_address_line_2'.
   $field_instances['bean-stanford_contact-field_s_contact_address_line_2'] = array(
     'bundle' => 'stanford_contact',
     'default_value' => NULL,
@@ -494,7 +494,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_contact-field_s_contact_address_line_3'
+  // 'bean-stanford_contact-field_s_contact_address_line_3'.
   $field_instances['bean-stanford_contact-field_s_contact_address_line_3'] = array(
     'bundle' => 'stanford_contact',
     'default_value' => NULL,
@@ -555,7 +555,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_contact-field_s_contact_city_state_zip'
+  // 'bean-stanford_contact-field_s_contact_city_state_zip'.
   $field_instances['bean-stanford_contact-field_s_contact_city_state_zip'] = array(
     'bundle' => 'stanford_contact',
     'default_value' => NULL,
@@ -619,7 +619,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_contact-field_s_contact_email'
+  // Exported field_instance: 'bean-stanford_contact-field_s_contact_email'.
   $field_instances['bean-stanford_contact-field_s_contact_email'] = array(
     'bundle' => 'stanford_contact',
     'default_value' => NULL,
@@ -652,7 +652,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_contact-field_s_contact_fax'
+  // Exported field_instance: 'bean-stanford_contact-field_s_contact_fax'.
   $field_instances['bean-stanford_contact-field_s_contact_fax'] = array(
     'bundle' => 'stanford_contact',
     'default_value' => NULL,
@@ -712,7 +712,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_contact-field_s_contact_link'
+  // Exported field_instance: 'bean-stanford_contact-field_s_contact_link'.
   $field_instances['bean-stanford_contact-field_s_contact_link'] = array(
     'bundle' => 'stanford_contact',
     'default_value' => NULL,
@@ -761,7 +761,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_contact-field_s_contact_phone'
+  // Exported field_instance: 'bean-stanford_contact-field_s_contact_phone'.
   $field_instances['bean-stanford_contact-field_s_contact_phone'] = array(
     'bundle' => 'stanford_contact',
     'default_value' => NULL,
@@ -825,7 +825,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_icon_block-field_s_icon_body'
+  // Exported field_instance: 'bean-stanford_icon_block-field_s_icon_body'.
   $field_instances['bean-stanford_icon_block-field_s_icon_body'] = array(
     'bundle' => 'stanford_icon_block',
     'default_value' => NULL,
@@ -899,7 +899,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_icon_block-field_s_icon_icon'
+  // Exported field_instance: 'bean-stanford_icon_block-field_s_icon_icon'.
   $field_instances['bean-stanford_icon_block-field_s_icon_icon'] = array(
     'bundle' => 'stanford_icon_block',
     'default_value' => NULL,
@@ -944,7 +944,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_icon_block-field_s_icon_link'
+  // Exported field_instance: 'bean-stanford_icon_block-field_s_icon_link'.
   $field_instances['bean-stanford_icon_block-field_s_icon_link'] = array(
     'bundle' => 'stanford_icon_block',
     'default_value' => NULL,
@@ -1008,7 +1008,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_large_block-field_s_large_blk_read_more_link'
+  // 'bean-stanford_large_block-field_s_large_blk_read_more_link'.
   $field_instances['bean-stanford_large_block-field_s_large_blk_read_more_link'] = array(
     'bundle' => 'stanford_large_block',
     'default_value' => NULL,
@@ -1070,7 +1070,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_large_block-field_s_large_block_body'
+  // 'bean-stanford_large_block-field_s_large_block_body'.
   $field_instances['bean-stanford_large_block-field_s_large_block_body'] = array(
     'bundle' => 'stanford_large_block',
     'default_value' => NULL,
@@ -1147,7 +1147,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_large_block-field_s_large_block_file_insert'
+  // 'bean-stanford_large_block-field_s_large_block_file_insert'.
   $field_instances['bean-stanford_large_block-field_s_large_block_file_insert'] = array(
     'bundle' => 'stanford_large_block',
     'deleted' => 0,
@@ -1222,7 +1222,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_large_block-field_s_large_block_image_insert'
+  // 'bean-stanford_large_block-field_s_large_block_image_insert'.
   $field_instances['bean-stanford_large_block-field_s_large_block_image_insert'] = array(
     'bundle' => 'stanford_large_block',
     'deleted' => 0,
@@ -1300,7 +1300,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_postcard-field_s_image_info'
+  // Exported field_instance: 'bean-stanford_postcard-field_s_image_info'.
   $field_instances['bean-stanford_postcard-field_s_image_info'] = array(
     'bundle' => 'stanford_postcard',
     'default_value' => NULL,
@@ -1409,7 +1409,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_postcard-field_s_postcard_body'
+  // Exported field_instance: 'bean-stanford_postcard-field_s_postcard_body'.
   $field_instances['bean-stanford_postcard-field_s_postcard_body'] = array(
     'bundle' => 'stanford_postcard',
     'default_value' => NULL,
@@ -1502,7 +1502,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_postcard-field_s_postcard_file'
+  // Exported field_instance: 'bean-stanford_postcard-field_s_postcard_file'.
   $field_instances['bean-stanford_postcard-field_s_postcard_file'] = array(
     'bundle' => 'stanford_postcard',
     'deleted' => 0,
@@ -1693,7 +1693,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_postcard-field_s_postcard_image_insert'
+  // 'bean-stanford_postcard-field_s_postcard_image_insert'.
   $field_instances['bean-stanford_postcard-field_s_postcard_image_insert'] = array(
     'bundle' => 'stanford_postcard',
     'deleted' => 0,
@@ -1804,7 +1804,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_postcard-field_s_postcard_link'
+  // Exported field_instance: 'bean-stanford_postcard-field_s_postcard_link'.
   $field_instances['bean-stanford_postcard-field_s_postcard_link'] = array(
     'bundle' => 'stanford_postcard',
     'default_value' => NULL,
@@ -1949,7 +1949,436 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_social_media_connect-field_s_smc_facebook'
+  // 'bean-stanford_postcard_linked-field_s_post_link_body'.
+  $field_instances['bean-stanford_postcard_linked-field_s_post_link_body'] = array(
+    'bundle' => 'stanford_postcard_linked',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'This is the text for your block.',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+    ),
+    'entity_type' => 'bean',
+    'field_name' => 'field_s_post_link_body',
+    'label' => 'Text',
+    'required' => 0,
+    'settings' => array(
+      'better_formats' => array(
+        'allowed_formats' => array(
+          'content_editor_text_format' => 'content_editor_text_format',
+          'filtered_html' => 'filtered_html',
+          'full_html' => 'full_html',
+          'minimal_html' => 'minimal_html',
+          'plain_text' => 'plain_text',
+        ),
+        'allowed_formats_toggle' => 0,
+        'default_order_toggle' => 0,
+        'default_order_wrapper' => array(
+          'formats' => array(
+            'content_editor_text_format' => array(
+              'weight' => -10,
+            ),
+            'filtered_html' => array(
+              'weight' => 0,
+            ),
+            'full_html' => array(
+              'weight' => 1,
+            ),
+            'minimal_html' => array(
+              'weight' => 0,
+            ),
+            'plain_text' => array(
+              'weight' => 10,
+            ),
+          ),
+        ),
+      ),
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'rows' => 5,
+      ),
+      'type' => 'text_textarea',
+      'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'bean-stanford_postcard_linked-field_s_post_link_icon'.
+  $field_instances['bean-stanford_postcard_linked-field_s_post_link_icon'] = array(
+    'bundle' => 'stanford_postcard_linked',
+    'deleted' => 0,
+    'description' => 'This is the 30 x 30 arrow icon that will display on the image. It uses a default image.',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 9,
+      ),
+    ),
+    'entity_type' => 'bean',
+    'field_name' => 'field_s_post_link_icon',
+    'label' => 'Icon',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 1,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '500x500',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'insert' => 0,
+        'insert_absolute' => 0,
+        'insert_class' => '',
+        'insert_default' => 'auto',
+        'insert_styles' => array(
+          'auto' => 'auto',
+          'colorbox__3-col-header' => 0,
+          'colorbox__4-col-header' => 0,
+          'colorbox__6-col-banner' => 0,
+          'colorbox__6-col-banner-short' => 0,
+          'colorbox__6-col-banner-tall' => 0,
+          'colorbox__6-col-photo-landscape' => 0,
+          'colorbox__8-col-banner' => 0,
+          'colorbox__8-col-banner-short' => 0,
+          'colorbox__8-col-banner-tall' => 0,
+          'colorbox__9-col-banner' => 0,
+          'colorbox__9-col-banner-short' => 0,
+          'colorbox__12-col-banner' => 0,
+          'colorbox__12-col-banner-tall' => 0,
+          'colorbox__banner-850x400' => 0,
+          'colorbox__full-width-banner' => 0,
+          'colorbox__full-width-banner-short' => 0,
+          'colorbox__full_width_banner_shorts_scale_and_crop_1600x400' => 0,
+          'colorbox__full_width_banner_tall' => 0,
+          'colorbox__half-page-profile' => 0,
+          'colorbox__header_370_x_170' => 0,
+          'colorbox__header_scale_850x400' => 0,
+          'colorbox__huge-landscape' => 0,
+          'colorbox__icon-profile' => 0,
+          'colorbox__icon-scaled' => 0,
+          'colorbox__icon-square' => 0,
+          'colorbox__large' => 0,
+          'colorbox__large-landscape' => 0,
+          'colorbox__large-landscape-scaled' => 0,
+          'colorbox__large-profile' => 0,
+          'colorbox__large-profile-scaled' => 0,
+          'colorbox__large-scaled' => 0,
+          'colorbox__large-square' => 0,
+          'colorbox__med-landscape' => 0,
+          'colorbox__med-landscape-scaled' => 0,
+          'colorbox__med-profile' => 0,
+          'colorbox__med-profile-scaled' => 0,
+          'colorbox__med-square' => 0,
+          'colorbox__medium' => 0,
+          'colorbox__page-width' => 0,
+          'colorbox__sm-landscape' => 0,
+          'colorbox__sm-landscape-scaled' => 0,
+          'colorbox__sm-profile' => 0,
+          'colorbox__sm-profile-scaled' => 0,
+          'colorbox__sm-scaled' => 0,
+          'colorbox__sm-square' => 0,
+          'colorbox__square_370_x_370' => 0,
+          'colorbox__thmb-landscape' => 0,
+          'colorbox__thmb-profile' => 0,
+          'colorbox__thmb-square' => 0,
+          'colorbox__thumbnail' => 0,
+          'icon_link' => 0,
+          'image' => 0,
+          'image_3-col-header' => 0,
+          'image_4-col-header' => 0,
+          'image_6-col-banner' => 0,
+          'image_6-col-banner-short' => 0,
+          'image_6-col-banner-tall' => 0,
+          'image_6-col-photo-landscape' => 0,
+          'image_8-col-banner' => 0,
+          'image_8-col-banner-short' => 0,
+          'image_8-col-banner-tall' => 0,
+          'image_9-col-banner' => 0,
+          'image_9-col-banner-short' => 0,
+          'image_12-col-banner' => 0,
+          'image_12-col-banner-tall' => 0,
+          'image_banner-850x400' => 0,
+          'image_full-width-banner' => 0,
+          'image_full-width-banner-short' => 0,
+          'image_full_width_banner_shorts_scale_and_crop_1600x400' => 0,
+          'image_full_width_banner_tall' => 0,
+          'image_half-page-profile' => 0,
+          'image_header_370_x_170' => 0,
+          'image_header_scale_850x400' => 0,
+          'image_huge-landscape' => 0,
+          'image_icon-profile' => 0,
+          'image_icon-scaled' => 0,
+          'image_icon-square' => 0,
+          'image_large' => 0,
+          'image_large-landscape' => 0,
+          'image_large-landscape-scaled' => 0,
+          'image_large-profile' => 0,
+          'image_large-profile-scaled' => 0,
+          'image_large-scaled' => 0,
+          'image_large-square' => 0,
+          'image_med-landscape' => 0,
+          'image_med-landscape-scaled' => 0,
+          'image_med-profile' => 0,
+          'image_med-profile-scaled' => 0,
+          'image_med-square' => 0,
+          'image_medium' => 0,
+          'image_page-width' => 0,
+          'image_sm-landscape' => 0,
+          'image_sm-landscape-scaled' => 0,
+          'image_sm-profile' => 0,
+          'image_sm-profile-scaled' => 0,
+          'image_sm-scaled' => 0,
+          'image_sm-square' => 0,
+          'image_square_370_x_370' => 0,
+          'image_thmb-landscape' => 0,
+          'image_thmb-profile' => 0,
+          'image_thmb-square' => 0,
+          'image_thumbnail' => 0,
+          'link' => 0,
+        ),
+        'insert_width' => '',
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'bean-stanford_postcard_linked-field_s_post_link_image'.
+  $field_instances['bean-stanford_postcard_linked-field_s_post_link_image'] = array(
+    'bundle' => 'stanford_postcard_linked',
+    'deleted' => 0,
+    'description' => 'Your image will be scaled and cropped to 370x170.',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => 'header_370_x_170',
+        ),
+        'type' => 'image',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'bean',
+    'field_name' => 'field_s_post_link_image',
+    'label' => 'Image',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 1,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '1200x1200',
+      'min_resolution' => '',
+      'title_field' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'insert' => 0,
+        'insert_absolute' => 0,
+        'insert_class' => '',
+        'insert_default' => 'auto',
+        'insert_styles' => array(
+          'auto' => 'auto',
+          'colorbox__3-col-header' => 0,
+          'colorbox__4-col-header' => 0,
+          'colorbox__6-col-banner' => 0,
+          'colorbox__6-col-banner-short' => 0,
+          'colorbox__6-col-banner-tall' => 0,
+          'colorbox__6-col-photo-landscape' => 0,
+          'colorbox__8-col-banner' => 0,
+          'colorbox__8-col-banner-short' => 0,
+          'colorbox__8-col-banner-tall' => 0,
+          'colorbox__9-col-banner' => 0,
+          'colorbox__9-col-banner-short' => 0,
+          'colorbox__12-col-banner' => 0,
+          'colorbox__12-col-banner-tall' => 0,
+          'colorbox__banner-850x400' => 0,
+          'colorbox__full-width-banner' => 0,
+          'colorbox__full-width-banner-short' => 0,
+          'colorbox__full_width_banner_shorts_scale_and_crop_1600x400' => 0,
+          'colorbox__full_width_banner_tall' => 0,
+          'colorbox__half-page-profile' => 0,
+          'colorbox__header_370_x_170' => 0,
+          'colorbox__header_scale_850x400' => 0,
+          'colorbox__huge-landscape' => 0,
+          'colorbox__icon-profile' => 0,
+          'colorbox__icon-scaled' => 0,
+          'colorbox__icon-square' => 0,
+          'colorbox__large' => 0,
+          'colorbox__large-landscape' => 0,
+          'colorbox__large-landscape-scaled' => 0,
+          'colorbox__large-profile' => 0,
+          'colorbox__large-profile-scaled' => 0,
+          'colorbox__large-scaled' => 0,
+          'colorbox__large-square' => 0,
+          'colorbox__med-landscape' => 0,
+          'colorbox__med-landscape-scaled' => 0,
+          'colorbox__med-profile' => 0,
+          'colorbox__med-profile-scaled' => 0,
+          'colorbox__med-square' => 0,
+          'colorbox__medium' => 0,
+          'colorbox__page-width' => 0,
+          'colorbox__sm-landscape' => 0,
+          'colorbox__sm-landscape-scaled' => 0,
+          'colorbox__sm-profile' => 0,
+          'colorbox__sm-profile-scaled' => 0,
+          'colorbox__sm-scaled' => 0,
+          'colorbox__sm-square' => 0,
+          'colorbox__square_370_x_370' => 0,
+          'colorbox__thmb-landscape' => 0,
+          'colorbox__thmb-profile' => 0,
+          'colorbox__thmb-square' => 0,
+          'colorbox__thumbnail' => 0,
+          'icon_link' => 0,
+          'image' => 0,
+          'image_3-col-header' => 0,
+          'image_4-col-header' => 0,
+          'image_6-col-banner' => 0,
+          'image_6-col-banner-short' => 0,
+          'image_6-col-banner-tall' => 0,
+          'image_6-col-photo-landscape' => 0,
+          'image_8-col-banner' => 0,
+          'image_8-col-banner-short' => 0,
+          'image_8-col-banner-tall' => 0,
+          'image_9-col-banner' => 0,
+          'image_9-col-banner-short' => 0,
+          'image_12-col-banner' => 0,
+          'image_12-col-banner-tall' => 0,
+          'image_banner-850x400' => 0,
+          'image_full-width-banner' => 0,
+          'image_full-width-banner-short' => 0,
+          'image_full_width_banner_shorts_scale_and_crop_1600x400' => 0,
+          'image_full_width_banner_tall' => 0,
+          'image_half-page-profile' => 0,
+          'image_header_370_x_170' => 0,
+          'image_header_scale_850x400' => 0,
+          'image_huge-landscape' => 0,
+          'image_icon-profile' => 0,
+          'image_icon-scaled' => 0,
+          'image_icon-square' => 0,
+          'image_large' => 0,
+          'image_large-landscape' => 0,
+          'image_large-landscape-scaled' => 0,
+          'image_large-profile' => 0,
+          'image_large-profile-scaled' => 0,
+          'image_large-scaled' => 0,
+          'image_large-square' => 0,
+          'image_med-landscape' => 0,
+          'image_med-landscape-scaled' => 0,
+          'image_med-profile' => 0,
+          'image_med-profile-scaled' => 0,
+          'image_med-square' => 0,
+          'image_medium' => 0,
+          'image_page-width' => 0,
+          'image_sm-landscape' => 0,
+          'image_sm-landscape-scaled' => 0,
+          'image_sm-profile' => 0,
+          'image_sm-profile-scaled' => 0,
+          'image_sm-scaled' => 0,
+          'image_sm-square' => 0,
+          'image_square_370_x_370' => 0,
+          'image_thmb-landscape' => 0,
+          'image_thmb-profile' => 0,
+          'image_thmb-square' => 0,
+          'image_thumbnail' => 0,
+          'link' => 0,
+        ),
+        'insert_width' => '',
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'bean-stanford_postcard_linked-field_s_post_link_link'.
+  $field_instances['bean-stanford_postcard_linked-field_s_post_link_link'] = array(
+    'bundle' => 'stanford_postcard_linked',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'The link title will display as the block title. The URL directs to more information.',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'link',
+        'settings' => array(),
+        'type' => 'link_default',
+        'weight' => 13,
+      ),
+    ),
+    'entity_type' => 'bean',
+    'field_name' => 'field_s_post_link_link',
+    'label' => 'Linked title',
+    'required' => 1,
+    'settings' => array(
+      'absolute_url' => 1,
+      'attributes' => array(
+        'class' => '',
+        'configurable_class' => 0,
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => 'default',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'rel_remove' => 'default',
+      'title' => 'required',
+      'title_label_use_field_label' => 0,
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+      'user_register_form' => FALSE,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 1,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'bean-stanford_social_media_connect-field_s_smc_facebook'.
   $field_instances['bean-stanford_social_media_connect-field_s_smc_facebook'] = array(
     'bundle' => 'stanford_social_media_connect',
     'default_value' => array(
@@ -2016,7 +2445,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_social_media_connect-field_s_smc_flickr'
+  // 'bean-stanford_social_media_connect-field_s_smc_flickr'.
   $field_instances['bean-stanford_social_media_connect-field_s_smc_flickr'] = array(
     'bundle' => 'stanford_social_media_connect',
     'default_value' => array(
@@ -2082,7 +2511,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_social_media_connect-field_s_smc_googleplus'
+  // 'bean-stanford_social_media_connect-field_s_smc_googleplus'.
   $field_instances['bean-stanford_social_media_connect-field_s_smc_googleplus'] = array(
     'bundle' => 'stanford_social_media_connect',
     'default_value' => array(
@@ -2148,7 +2577,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_social_media_connect-field_s_smc_instagram'
+  // 'bean-stanford_social_media_connect-field_s_smc_instagram'.
   $field_instances['bean-stanford_social_media_connect-field_s_smc_instagram'] = array(
     'bundle' => 'stanford_social_media_connect',
     'default_value' => array(
@@ -2214,7 +2643,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_social_media_connect-field_s_smc_linkedin'
+  // 'bean-stanford_social_media_connect-field_s_smc_linkedin'.
   $field_instances['bean-stanford_social_media_connect-field_s_smc_linkedin'] = array(
     'bundle' => 'stanford_social_media_connect',
     'default_value' => array(
@@ -2280,7 +2709,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_social_media_connect-field_s_smc_pinterest'
+  // 'bean-stanford_social_media_connect-field_s_smc_pinterest'.
   $field_instances['bean-stanford_social_media_connect-field_s_smc_pinterest'] = array(
     'bundle' => 'stanford_social_media_connect',
     'default_value' => array(
@@ -2346,7 +2775,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_social_media_connect-field_s_smc_tumblr'
+  // 'bean-stanford_social_media_connect-field_s_smc_tumblr'.
   $field_instances['bean-stanford_social_media_connect-field_s_smc_tumblr'] = array(
     'bundle' => 'stanford_social_media_connect',
     'default_value' => array(
@@ -2412,7 +2841,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_social_media_connect-field_s_smc_twitter'
+  // 'bean-stanford_social_media_connect-field_s_smc_twitter'.
   $field_instances['bean-stanford_social_media_connect-field_s_smc_twitter'] = array(
     'bundle' => 'stanford_social_media_connect',
     'default_value' => array(
@@ -2478,7 +2907,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_social_media_connect-field_s_smc_vimeo'
+  // 'bean-stanford_social_media_connect-field_s_smc_vimeo'.
   $field_instances['bean-stanford_social_media_connect-field_s_smc_vimeo'] = array(
     'bundle' => 'stanford_social_media_connect',
     'default_value' => array(
@@ -2544,7 +2973,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_social_media_connect-field_s_smc_youtube'
+  // 'bean-stanford_social_media_connect-field_s_smc_youtube'.
   $field_instances['bean-stanford_social_media_connect-field_s_smc_youtube'] = array(
     'bundle' => 'stanford_social_media_connect',
     'default_value' => array(
@@ -2610,7 +3039,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_testimonial_block-field_s_image_info'
+  // 'bean-stanford_testimonial_block-field_s_image_info'.
   $field_instances['bean-stanford_testimonial_block-field_s_image_info'] = array(
     'bundle' => 'stanford_testimonial_block',
     'default_value' => NULL,
@@ -2659,7 +3088,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_testimonial_block-field_s_testimonial_credits'
+  // 'bean-stanford_testimonial_block-field_s_testimonial_credits'.
   $field_instances['bean-stanford_testimonial_block-field_s_testimonial_credits'] = array(
     'bundle' => 'stanford_testimonial_block',
     'default_value' => NULL,
@@ -2732,7 +3161,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_testimonial_block-field_s_testimonial_quote'
+  // 'bean-stanford_testimonial_block-field_s_testimonial_quote'.
   $field_instances['bean-stanford_testimonial_block-field_s_testimonial_quote'] = array(
     'bundle' => 'stanford_testimonial_block',
     'default_value' => NULL,
@@ -2805,7 +3234,7 @@ function stanford_bean_types_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'bean-stanford_testimonial_block-field_testimonial_more_link'
+  // 'bean-stanford_testimonial_block-field_testimonial_more_link'.
   $field_instances['bean-stanford_testimonial_block-field_testimonial_more_link'] = array(
     'bundle' => 'stanford_testimonial_block',
     'default_value' => NULL,
@@ -2899,6 +3328,7 @@ function stanford_bean_types_field_default_field_instances() {
   t('Instagram');
   t('Lead text');
   t('Link');
+  t('Linked title');
   t('LinkedIn');
   t('More link');
   t('Phone');
@@ -2906,8 +3336,12 @@ function stanford_bean_types_field_default_field_instances() {
   t('Quote');
   t('Read More Link');
   t('Select icon from the select list. <a href="http://fortawesome.github.io/Font-Awesome/3.2.1/cheatsheet/" target="_blank">Preview icons from Font Awesome.</a>');
+  t('Text');
   t('The link title should be a call to read more (e.g., "Learn more about our department"). The URL directs to more information.');
+  t('The link title will display as the block title. The URL directs to more information.');
   t('This displays an image in the block.');
+  t('This is the 30 x 30 arrow icon that will display on the image. It uses a default image.');
+  t('This is the text for your block.');
   t('This is your quote field. You do not need to add quotation marks around the text.');
   t('This text field displays the fax number (e.g., "(555) 555-555" or for international numbers: "+31 42 123 4567").');
   t('Tumblr');
@@ -2918,6 +3352,7 @@ function stanford_bean_types_field_default_field_instances() {
   t('Use this field to add a URL link to more information (e.g., Stanford News | https://news.stanford.edu).');
   t('Vimeo');
   t('YouTube');
+  t('Your image will be scaled and cropped to 370x170.');
 
   return $field_instances;
 }

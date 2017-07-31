@@ -68,6 +68,16 @@ You can insert files and images into your body content. There is no header image
   $bean_type = new stdClass();
   $bean_type->disabled = FALSE; /* Edit this to true to make a default bean_type disabled initially */
   $bean_type->api_version = 5;
+  $bean_type->name = 'stanford_postcard_linked';
+  $bean_type->label = 'Stanford Postcard Linked';
+  $bean_type->options = '';
+  $bean_type->description = 'Similar to the postcard bean type. Using the default display mode, the title and the image are links.
+This was separated from the postcard bean type due to technical issues getting the Field Group Link module to work with the Display Suite module.';
+  $export['stanford_postcard_linked'] = $bean_type;
+
+  $bean_type = new stdClass();
+  $bean_type->disabled = FALSE; /* Edit this to true to make a default bean_type disabled initially */
+  $bean_type->api_version = 5;
   $bean_type->name = 'stanford_social_media_connect';
   $bean_type->label = 'Stanford Social Media Connect';
   $bean_type->options = '';
