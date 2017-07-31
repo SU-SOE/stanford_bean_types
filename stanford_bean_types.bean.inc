@@ -71,8 +71,8 @@ You can insert files and images into your body content. There is no header image
   $bean_type->name = 'stanford_postcard_linked';
   $bean_type->label = 'Stanford Postcard Linked';
   $bean_type->options = '';
-  $bean_type->description = 'Similar to the postcard bean type. Using the default display mode, this wraps the title and the image with the Read More Link and hides the link from display. 
-This was separated from the postcard type due to technical issues getting the Field Group Link module to work with the Display Suite module.';
+  $bean_type->description = 'Similar to the postcard bean type. Using the default display mode, the title and the image are links.
+This was separated from the postcard bean type due to technical issues getting the Field Group Link module to work with the Display Suite module.';
   $export['stanford_postcard_linked'] = $bean_type;
 
   $bean_type = new stdClass();
