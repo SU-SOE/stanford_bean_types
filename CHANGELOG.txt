@@ -1,6 +1,14 @@
 Stanford Bean Types x.x-x.x xxxx-xx-xx
 --------------------------------------
 
+7.x-2.9-alpha1                       2018-02-02
+-----------------------------------------------
+- This release includes an upstream merge with the SU-SWS/stanford_bean_types repository, 7.x-2.x-dev branch as of 2017-09-22 (commit: a474968b3).
+- Adds full width banner CSS.
+- Adds call to action related modules.
+- Updates help text.
+- Adds stanford_postcard_linked bean type.
+
 7.x-2.8+3-dev                        2016-02-17
 ---------------------------------------------
 - Fix empty H2 element on icon blocks.
