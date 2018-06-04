@@ -45,6 +45,38 @@ function stanford_bean_types_field_group_info() {
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
   $field_group->api_version = 1;
+  $field_group->identifier = 'group_first_group|bean|stanford_testimonial_block|stanford_soe_default';
+  $field_group->group_name = 'group_first_group';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_testimonial_block';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = 'group_postcard';
+  $field_group->data = array(
+    'label' => 'first group ',
+    'weight' => '9',
+    'children' => array(
+      0 => 'group_s_subhead_style',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'first group ',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'group-first-group field-group-div',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_first_group|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
   $field_group->identifier = 'group_postcard_content|bean|stanford_icon_block|default';
   $field_group->group_name = 'group_postcard_content';
   $field_group->entity_type = 'bean';
@@ -152,7 +184,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'postcard',
-    'weight' => '7',
+    'weight' => '0',
     'children' => array(
       0 => 'group_first_group',
       1 => 'group_second_group',
@@ -332,6 +364,38 @@ function stanford_bean_types_field_group_info() {
     ),
   );
   $field_groups['group_s_credits_style|bean|stanford_testimonial_block|default'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_s_credits_style|bean|stanford_testimonial_block|stanford_soe_default';
+  $field_group->group_name = 'group_s_credits_style';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_testimonial_block';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = 'group_second_group';
+  $field_group->data = array(
+    'label' => 'Credits',
+    'weight' => '3',
+    'children' => array(
+      0 => 'field_s_testimonial_credits',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Credits',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'group-s-credits-style field-group-div credits',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_s_credits_style|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -1100,6 +1164,70 @@ function stanford_bean_types_field_group_info() {
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
   $field_group->api_version = 1;
+  $field_group->identifier = 'group_s_quote_style|bean|stanford_testimonial_block|stanford_soe_default';
+  $field_group->group_name = 'group_s_quote_style';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_testimonial_block';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = 'group_second_group';
+  $field_group->data = array(
+    'label' => 'Quote',
+    'weight' => '2',
+    'children' => array(
+      0 => 'field_s_testimonial_quote',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Quote',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'group-s-quote-style field-group-div quote',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_s_quote_style|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_s_subhead_style|bean|stanford_testimonial_block|stanford_soe_default';
+  $field_group->group_name = 'group_s_subhead_style';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_testimonial_block';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = 'group_first_group';
+  $field_group->data = array(
+    'label' => 'Subhead',
+    'weight' => '7',
+    'children' => array(
+      0 => 'field_s_testimonial_superhead',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Subhead',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'group-s-subhead-style field-group-div subhead',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_s_subhead_style|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
   $field_group->identifier = 'group_s_title_container|bean|stanford_postcard_linked|default';
   $field_group->group_name = 'group_s_title_container';
   $field_group->entity_type = 'bean';
@@ -1163,6 +1291,39 @@ function stanford_bean_types_field_group_info() {
   );
   $field_groups['group_second_group|bean|stanford_testimonial_block|default'] = $field_group;
 
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_second_group|bean|stanford_testimonial_block|stanford_soe_default';
+  $field_group->group_name = 'group_second_group';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_testimonial_block';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = 'group_postcard';
+  $field_group->data = array(
+    'label' => 'Second group',
+    'weight' => '10',
+    'children' => array(
+      0 => 'group_s_quote_style',
+      1 => 'group_s_credits_style',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Second group',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'group-second-group field-group-div',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_second_group|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Address');
@@ -1180,8 +1341,11 @@ function stanford_bean_types_field_group_info() {
   t('Postcard Image');
   t('Postcard body');
   t('Quote');
+  t('Second group');
+  t('Subhead');
   t('Title container');
   t('first group');
+  t('first group ');
   t('postcard');
   t('second group');
 

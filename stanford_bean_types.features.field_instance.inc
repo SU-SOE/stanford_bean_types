@@ -2934,17 +2934,6 @@ function stanford_bean_types_field_default_field_instances() {
         'module' => 'field_collection',
         'settings' => array(
           'add' => '',
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
-          'custom_ucwords' => '',
           'delete' => '',
           'description' => 0,
           'edit' => '',
@@ -2952,6 +2941,12 @@ function stanford_bean_types_field_default_field_instances() {
         ),
         'type' => 'field_collection_view',
         'weight' => 1,
+      ),
+      'stanford_soe_default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
       ),
     ),
     'entity_type' => 'bean',
@@ -2966,7 +2961,7 @@ function stanford_bean_types_field_default_field_instances() {
       'module' => 'field_collection',
       'settings' => array(),
       'type' => 'field_collection_embed',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
@@ -2981,21 +2976,16 @@ function stanford_bean_types_field_default_field_instances() {
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
-          'custom_ucwords' => '',
-        ),
+        'settings' => array(),
         'type' => 'text_default',
         'weight' => 3,
+      ),
+      'stanford_soe_default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
       ),
     ),
     'entity_type' => 'bean',
@@ -3039,7 +3029,7 @@ function stanford_bean_types_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 4,
+      'weight' => 5,
     ),
   );
 
@@ -3054,21 +3044,16 @@ function stanford_bean_types_field_default_field_instances() {
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
-          'custom_ucwords' => '',
-        ),
+        'settings' => array(),
         'type' => 'text_default',
         'weight' => 2,
+      ),
+      'stanford_soe_default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
       ),
     ),
     'entity_type' => 'bean',
@@ -3112,7 +3097,78 @@ function stanford_bean_types_field_default_field_instances() {
         'size' => 180,
       ),
       'type' => 'text_textfield',
-      'weight' => 3,
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance:
+  // 'bean-stanford_testimonial_block-field_s_testimonial_superhead'.
+  $field_instances['bean-stanford_testimonial_block-field_s_testimonial_superhead'] = array(
+    'bundle' => 'stanford_testimonial_block',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'This displays the superhead text in selected view modes.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
+      'stanford_soe_default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+    ),
+    'entity_type' => 'bean',
+    'field_name' => 'field_s_testimonial_superhead',
+    'label' => 'Superhead',
+    'required' => 0,
+    'settings' => array(
+      'better_formats' => array(
+        'allowed_formats' => array(
+          'content_editor_text_format' => 'content_editor_text_format',
+          'filtered_html' => 'filtered_html',
+          'full_html' => 'full_html',
+          'minimal_html' => 'minimal_html',
+          'plain_text' => 'plain_text',
+        ),
+        'allowed_formats_toggle' => 0,
+        'default_order_toggle' => 0,
+        'default_order_wrapper' => array(
+          'formats' => array(
+            'content_editor_text_format' => array(
+              'weight' => -10,
+            ),
+            'filtered_html' => array(
+              'weight' => 0,
+            ),
+            'full_html' => array(
+              'weight' => 1,
+            ),
+            'minimal_html' => array(
+              'weight' => 0,
+            ),
+            'plain_text' => array(
+              'weight' => 10,
+            ),
+          ),
+        ),
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 2,
     ),
   );
 
@@ -3127,21 +3183,15 @@ function stanford_bean_types_field_default_field_instances() {
       'default' => array(
         'label' => 'hidden',
         'module' => 'link',
-        'settings' => array(
-          'custom_link_to_entity' => '',
-          'custom_prefix' => '',
-          'custom_reverse' => '',
-          'custom_strip_preserve' => '',
-          'custom_strip_tags' => '',
-          'custom_strtolower' => '',
-          'custom_strtoupper' => '',
-          'custom_suffix' => '',
-          'custom_trim' => '',
-          'custom_ucfirst' => '',
-          'custom_ucwords' => '',
-        ),
+        'settings' => array(),
         'type' => 'link_default',
         'weight' => 4,
+      ),
+      'stanford_soe_default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
       ),
     ),
     'entity_type' => 'bean',
@@ -3175,7 +3225,7 @@ function stanford_bean_types_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 5,
+      'weight' => 6,
     ),
   );
 
@@ -3219,10 +3269,12 @@ function stanford_bean_types_field_default_field_instances() {
   t('Quote');
   t('Read More Link');
   t('Select icon from the select list. <a href="http://fortawesome.github.io/Font-Awesome/3.2.1/cheatsheet/" target="_blank">Preview icons from Font Awesome.</a>');
+  t('Superhead');
   t('Text');
   t('The link title should be a call to read more (e.g., "Learn more about our department"). The URL directs to more information.');
   t('The link title will display as the block title. The URL directs to more information.');
   t('This displays an image in the block.');
+  t('This displays the superhead text in selected view modes.');
   t('This is the 30 x 30 arrow icon that will display on the image. It uses a default image.');
   t('This is the text for your block.');
   t('This is your quote field. You do not need to add quotation marks around the text.');
