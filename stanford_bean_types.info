@@ -43,6 +43,7 @@ features[ctools][] = views:views_default:3.0
 features[ds_field_settings][] = bean|stanford_icon_block|default
 features[ds_layout_settings][] = bean|stanford_icon_block|default
 features[ds_view_modes][] = stanford_12_col_banner_tall
+features[ds_view_modes][] = stanford_soe_default
 features[features_api][] = api:2
 features[field_base][] = field_s_big_text_block_body
 features[field_base][] = field_s_big_text_block_lead_text
