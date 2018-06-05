@@ -90,6 +90,7 @@ features[field_group][] = group_postcard_content|bean|stanford_icon_block|defaul
 features[field_group][] = group_postcard_icon|bean|stanford_icon_block|default
 features[field_group][] = group_postcard|bean|stanford_icon_block|default
 features[field_group][] = group_postcard|bean|stanford_testimonial_block|default
+features[field_group][] = group_postcard|bean|stanford_testimonial_block|stanford_soe_default
 features[field_group][] = group_s_arrow_container|bean|stanford_postcard_linked|default
 features[field_group][] = group_s_big_text_style|bean|stanford_big_text_block|default
 features[field_group][] = group_s_circle_image_style|bean|stanford_testimonial_block|default
