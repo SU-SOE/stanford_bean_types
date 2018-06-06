@@ -2944,8 +2944,15 @@ function stanford_bean_types_field_default_field_instances() {
       ),
       'stanford_soe_default' => array(
         'label' => 'hidden',
-        'settings' => array(),
-        'type' => 'hidden',
+        'module' => 'field_collection',
+        'settings' => array(
+          'add' => 'Add',
+          'delete' => 'Delete',
+          'description' => TRUE,
+          'edit' => 'Edit',
+          'translate' => 'Translate',
+        ),
+        'type' => 'field_collection_list',
         'weight' => 6,
       ),
     ),
@@ -3113,7 +3120,7 @@ function stanford_bean_types_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 3,
+        'weight' => 1,
       ),
       'stanford_soe_default' => array(
         'label' => 'hidden',
@@ -3189,8 +3196,9 @@ function stanford_bean_types_field_default_field_instances() {
       ),
       'stanford_soe_default' => array(
         'label' => 'hidden',
+        'module' => 'link',
         'settings' => array(),
-        'type' => 'hidden',
+        'type' => 'link_default',
         'weight' => 5,
       ),
     ),
