@@ -21,7 +21,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'first group',
-    'weight' => '16',
+    'weight' => '0',
     'children' => array(
       0 => 'group_s_circle_image_style',
     ),
@@ -219,15 +219,16 @@ function stanford_bean_types_field_group_info() {
     'label' => 'Postcard',
     'weight' => '0',
     'children' => array(
-      0 => 'group_first_group',
-      1 => 'group_second_group',
+      0 => 'group_s_credits_style',
+      1 => 'group_s_quote_style',
+      2 => 'group_s_superhead_style',
     ),
     'format_type' => 'div',
     'format_settings' => array(
       'label' => 'Postcard',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'group-postcard field-group-div',
+        'classes' => 'group-postcard field-group-div postcard',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -406,10 +407,10 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'stanford_soe_default';
-  $field_group->parent_name = 'group_second_group';
+  $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'Credits',
-    'weight' => '3',
+    'weight' => '11',
     'children' => array(
       0 => 'field_s_testimonial_credits',
     ),
@@ -1202,10 +1203,10 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'stanford_soe_default';
-  $field_group->parent_name = 'group_second_group';
+  $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'Quote',
-    'weight' => '2',
+    'weight' => '10',
     'children' => array(
       0 => 'field_s_testimonial_quote',
     ),
@@ -1229,24 +1230,24 @@ function stanford_bean_types_field_group_info() {
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
   $field_group->api_version = 1;
-  $field_group->identifier = 'group_s_subhead_style|bean|stanford_testimonial_block|stanford_soe_default';
-  $field_group->group_name = 'group_s_subhead_style';
+  $field_group->identifier = 'group_s_superhead_style|bean|stanford_testimonial_block|stanford_soe_default';
+  $field_group->group_name = 'group_s_superhead_style';
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'stanford_soe_default';
-  $field_group->parent_name = 'group_first_group';
+  $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
-    'label' => 'Subhead',
-    'weight' => '7',
+    'label' => 'Superhead',
+    'weight' => '9',
     'children' => array(
       0 => 'field_s_testimonial_superhead',
     ),
     'format_type' => 'div',
     'format_settings' => array(
-      'label' => 'Subhead',
+      'label' => 'Superhead',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'group-s-subhead-style field-group-div subhead',
+        'classes' => 'group-s-superhead-style field-group-div superhead',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -1256,7 +1257,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups['group_s_subhead_style|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
+  $field_groups['group_s_superhead_style|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -1375,7 +1376,7 @@ function stanford_bean_types_field_group_info() {
   t('Postcard body');
   t('Quote');
   t('Second group');
-  t('Subhead');
+  t('Superhead');
   t('Title container');
   t('first group');
   t('first group ');
