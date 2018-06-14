@@ -1721,7 +1721,7 @@ function stanford_bean_types_field_default_field_instances() {
   $field_instances['bean-stanford_postcard-field_s_postcard_image_insert'] = array(
     'bundle' => 'stanford_postcard',
     'deleted' => 0,
-    'description' => 'This displays an image within the text of your block content.',
+    'description' => 'This displays an image within the body text of your block content.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -3376,7 +3376,7 @@ function stanford_bean_types_field_default_field_instances() {
   t('The link title should be a call to read more (e.g., "Learn more about our department"). The URL directs to more information.');
   t('The link title will display as the block title. The URL directs to more information.');
   t('This displays an image at the top of the block above all of the text.');
-  t('This displays an image within the text of your block content.');
+  t('This displays an image within the body text of your block content.');
   t('This displays the superhead text in selected view modes.');
   t('This is the 30 x 30 arrow icon that will display on the image. It uses a default image.');
   t('This is the text for your block.');
