@@ -1306,7 +1306,7 @@ function stanford_bean_types_field_default_field_instances() {
     'bundle' => 'stanford_postcard',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'This displays an image in the block.',
+    'description' => 'This displays an image at the top of the block above all of the text.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -1405,7 +1405,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
     'entity_type' => 'bean',
     'field_name' => 'field_s_image_info',
-    'label' => 'Image',
+    'label' => 'Key image',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -1721,7 +1721,7 @@ function stanford_bean_types_field_default_field_instances() {
   $field_instances['bean-stanford_postcard-field_s_postcard_image_insert'] = array(
     'bundle' => 'stanford_postcard',
     'deleted' => 0,
-    'description' => 'Upload and insert an image into your content.',
+    'description' => 'This displays an image within the text of your block content.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -1756,7 +1756,7 @@ function stanford_bean_types_field_default_field_instances() {
     ),
     'entity_type' => 'bean',
     'field_name' => 'field_s_postcard_image_insert',
-    'label' => 'Image Insert',
+    'label' => 'Image Insert in text',
     'required' => 0,
     'settings' => array(
       'alt_field' => 1,
@@ -1779,6 +1779,59 @@ function stanford_bean_types_field_default_field_instances() {
         'insert_default' => 'image_large-square',
         'insert_styles' => array(
           'auto' => 'auto',
+          'colorbox__3-col-header' => 0,
+          'colorbox__4-col-header' => 0,
+          'colorbox__6-col-banner' => 0,
+          'colorbox__6-col-banner-short' => 0,
+          'colorbox__6-col-banner-tall' => 0,
+          'colorbox__6-col-photo-landscape' => 0,
+          'colorbox__8-col-banner' => 0,
+          'colorbox__8-col-banner-short' => 0,
+          'colorbox__8-col-banner-tall' => 0,
+          'colorbox__9-col-banner' => 0,
+          'colorbox__9-col-banner-short' => 0,
+          'colorbox__12-col-banner' => 0,
+          'colorbox__12-col-banner-tall' => 0,
+          'colorbox__banner-850x400' => 0,
+          'colorbox__facebook_share_image' => 0,
+          'colorbox__full-width-banner' => 0,
+          'colorbox__full-width-banner-short' => 0,
+          'colorbox__full_width_banner_shorts_scale_and_crop_1600x400' => 0,
+          'colorbox__full_width_banner_tall' => 0,
+          'colorbox__half-page-profile' => 0,
+          'colorbox__header_370_x_170' => 0,
+          'colorbox__header_370_x_240' => 0,
+          'colorbox__header_scale_850x400' => 0,
+          'colorbox__huge-landscape' => 0,
+          'colorbox__icon-profile' => 0,
+          'colorbox__icon-scaled' => 0,
+          'colorbox__icon-square' => 0,
+          'colorbox__large' => 0,
+          'colorbox__large-landscape' => 0,
+          'colorbox__large-landscape-scaled' => 0,
+          'colorbox__large-profile' => 0,
+          'colorbox__large-profile-scaled' => 0,
+          'colorbox__large-scaled' => 0,
+          'colorbox__large-square' => 0,
+          'colorbox__med-landscape' => 0,
+          'colorbox__med-landscape-scaled' => 0,
+          'colorbox__med-profile' => 0,
+          'colorbox__med-profile-scaled' => 0,
+          'colorbox__med-square' => 0,
+          'colorbox__medium' => 0,
+          'colorbox__page-width' => 0,
+          'colorbox__sm-landscape' => 0,
+          'colorbox__sm-landscape-scaled' => 0,
+          'colorbox__sm-profile' => 0,
+          'colorbox__sm-profile-scaled' => 0,
+          'colorbox__sm-scaled' => 0,
+          'colorbox__sm-square' => 0,
+          'colorbox__square_370_x_370' => 0,
+          'colorbox__square_scale_and_crop_270_x_270' => 0,
+          'colorbox__thmb-landscape' => 0,
+          'colorbox__thmb-profile' => 0,
+          'colorbox__thmb-square' => 0,
+          'colorbox__thumbnail' => 0,
           'icon_link' => 0,
           'image' => 'image',
           'image_3-col-header' => 0,
@@ -1794,9 +1847,16 @@ function stanford_bean_types_field_default_field_instances() {
           'image_9-col-banner-short' => 0,
           'image_12-col-banner' => 0,
           'image_12-col-banner-tall' => 0,
+          'image_banner-850x400' => 0,
+          'image_facebook_share_image' => 0,
           'image_full-width-banner' => 0,
           'image_full-width-banner-short' => 0,
+          'image_full_width_banner_shorts_scale_and_crop_1600x400' => 0,
+          'image_full_width_banner_tall' => 0,
           'image_half-page-profile' => 0,
+          'image_header_370_x_170' => 0,
+          'image_header_370_x_240' => 0,
+          'image_header_scale_850x400' => 0,
           'image_huge-landscape' => 0,
           'image_icon-profile' => 0,
           'image_icon-scaled' => 0,
@@ -1816,9 +1876,13 @@ function stanford_bean_types_field_default_field_instances() {
           'image_medium' => 0,
           'image_page-width' => 0,
           'image_sm-landscape' => 0,
+          'image_sm-landscape-scaled' => 0,
           'image_sm-profile' => 0,
+          'image_sm-profile-scaled' => 0,
           'image_sm-scaled' => 0,
           'image_sm-square' => 'image_sm-square',
+          'image_square_370_x_370' => 0,
+          'image_square_scale_and_crop_270_x_270' => 0,
           'image_thmb-landscape' => 0,
           'image_thmb-profile' => 0,
           'image_thmb-square' => 0,
@@ -3284,6 +3348,7 @@ function stanford_bean_types_field_default_field_instances() {
   t('Icon');
   t('Image');
   t('Image Insert');
+  t('Image Insert in text');
   t('Insert a link to your Facebook account; if left empty, this field will not display.');
   t('Insert a link to your Flickr account; if left empty, this field will not display.');
   t('Insert a link to your Google+ account; if left empty, this field will not display.');
@@ -3295,6 +3360,7 @@ function stanford_bean_types_field_default_field_instances() {
   t('Insert a link to your Vimeo account; if left empty, this field will not display.');
   t('Insert a link to your YouTube account; if left empty, this field will not display.');
   t('Instagram');
+  t('Key image');
   t('Lead text');
   t('Link');
   t('Linked title');
@@ -3309,7 +3375,8 @@ function stanford_bean_types_field_default_field_instances() {
   t('Text');
   t('The link title should be a call to read more (e.g., "Learn more about our department"). The URL directs to more information.');
   t('The link title will display as the block title. The URL directs to more information.');
-  t('This displays an image in the block.');
+  t('This displays an image at the top of the block above all of the text.');
+  t('This displays an image within the text of your block content.');
   t('This displays the superhead text in selected view modes.');
   t('This is the 30 x 30 arrow icon that will display on the image. It uses a default image.');
   t('This is the text for your block.');
