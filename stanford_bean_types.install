@@ -51,7 +51,7 @@ function stanford_bean_types_update_7201(&$sandbox) {
 /**
  * Implements hook_update().
  *
- * Upload the image from: /sites/default/files/default_images/soe_lg_arrow_right_black_0.png.
+ * Upload the icon image
  */
 function stanford_bean_types_update_7202(&$sandbox) {
 
