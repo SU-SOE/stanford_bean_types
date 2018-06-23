@@ -35,7 +35,6 @@ function stanford_bean_types_update_7200(&$sandbox) {
  * Enable the new bean fields module.
  */
 function stanford_bean_types_update_7201(&$sandbox) {
-h
   if (!module_exists('ds_bean_fields')) {
     if (!module_enable(array('ds_bean_fields'))) {
       watchdog('stanford_bean_types', 'Could not enable ds_bean_fields module');
