@@ -39,7 +39,7 @@ function stanford_bean_types_ds_field_settings_info() {
   $ds_fieldsetting->view_mode = 'stanford_soe_default';
   $ds_fieldsetting->settings = array(
     'title' => array(
-      'weight' => '2',
+      'weight' => '14',
       'label' => 'hidden',
       'format' => 'default',
     ),
@@ -105,25 +105,31 @@ function stanford_bean_types_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'group_s_postcard',
-        1 => 'group_s_postcard_image',
-        2 => 'title',
-        3 => 'field_s_postcard_body',
-        4 => 'field_s_postcard_file',
-        5 => 'field_s_postcard_link',
-        6 => 'field_s_image_info',
-        7 => 'group_s_postcard_content',
+        0 => 'group_s_postcard_image',
+        1 => 'group_s_postcard',
+        2 => 'field_s_postcard_body',
+        3 => 'field_s_postcard_file',
+        4 => 'field_s_postcard_link',
+        5 => 'group_s_postcard_content',
+        6 => 'group_s_title_container',
+        7 => 'title',
+        8 => 'group_s_postcard_body',
+        9 => 'group_s_image_container',
+        10 => 'field_s_image_info',
       ),
     ),
     'fields' => array(
-      'group_s_postcard' => 'ds_content',
       'group_s_postcard_image' => 'ds_content',
-      'title' => 'ds_content',
+      'group_s_postcard' => 'ds_content',
       'field_s_postcard_body' => 'ds_content',
       'field_s_postcard_file' => 'ds_content',
       'field_s_postcard_link' => 'ds_content',
-      'field_s_image_info' => 'ds_content',
       'group_s_postcard_content' => 'ds_content',
+      'group_s_title_container' => 'ds_content',
+      'title' => 'ds_content',
+      'group_s_postcard_body' => 'ds_content',
+      'group_s_image_container' => 'ds_content',
+      'field_s_image_info' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
