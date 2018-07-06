@@ -863,8 +863,9 @@ function stanford_bean_types_field_group_info() {
     'label' => 'Postcard Content',
     'weight' => '10',
     'children' => array(
-      0 => 'group_s_postcard_body',
-      1 => 'group_s_title_container',
+      0 => 'field_s_postcard_body',
+      1 => 'field_s_postcard_link',
+      2 => 'title',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -1051,7 +1052,7 @@ function stanford_bean_types_field_group_info() {
     'label' => 'Postcard Image',
     'weight' => '0',
     'children' => array(
-      0 => 'group_s_image_container',
+      0 => 'field_s_image_info',
     ),
     'format_type' => 'div',
     'format_settings' => array(
