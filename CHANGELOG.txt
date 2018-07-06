@@ -1,5 +1,9 @@
-Stanford Bean Types x.x-x.x xxxx-xx-xx
---------------------------------------
+Stanford Bean Types
+
+7.x-2.9-alpha2                       2018-06-27
+-----------------------------------------------
+- This updates the help text on Postcard Bean Type .
+- This update will put the default icon into code and make it available as default to stanford_postcard_linked beans.
 
 7.x-2.9-alpha1                       2018-02-02
 -----------------------------------------------

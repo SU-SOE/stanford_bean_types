@@ -35,7 +35,6 @@ function stanford_bean_types_update_7200(&$sandbox) {
  * Enable the new bean fields module.
  */
 function stanford_bean_types_update_7201(&$sandbox) {
-
   if (!module_exists('ds_bean_fields')) {
     if (!module_enable(array('ds_bean_fields'))) {
       watchdog('stanford_bean_types', 'Could not enable ds_bean_fields module');
@@ -46,4 +45,24 @@ function stanford_bean_types_update_7201(&$sandbox) {
     }
   }
 
+}
+
+
+/**
+ * Implements hook_update().
+ *
+ * Upload the icon image
+ */
+function stanford_bean_types_update_7202(&$sandbox) {
+
+  // Get the default icon image
+  $filename = "soe_lg_arrow_right_black.png";
+  $file_path = drupal_get_path('module', 'stanford_bean_types') . "/images/" . $filename ;
+  $image = file_get_contents($file_path);
+
+  //Create a database entry.
+  $file = file_save_data($image, "public://" . $filename, FILE_EXISTS_REPLACE);
+
+  // And save the file id for default_image_ft to use.
+  variable_set('stanford_postcard_linked_icon', $file->fid);
 }
