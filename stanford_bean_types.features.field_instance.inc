@@ -1400,7 +1400,7 @@ function stanford_bean_types_field_default_field_instances() {
           'view_mode' => 'header_370x170',
         ),
         'type' => 'field_collection_fields',
-        'weight' => 5,
+        'weight' => 3,
       ),
     ),
     'entity_type' => 'bean',
@@ -1610,9 +1610,8 @@ function stanford_bean_types_field_default_field_instances() {
       ),
       'stanford_soe_default' => array(
         'label' => 'hidden',
-        'module' => 'file',
         'settings' => array(),
-        'type' => 'file_default',
+        'type' => 'hidden',
         'weight' => 4,
       ),
       'test' => array(
@@ -1751,7 +1750,7 @@ function stanford_bean_types_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 1,
+        'weight' => 6,
       ),
     ),
     'entity_type' => 'bean',
@@ -1993,7 +1992,7 @@ function stanford_bean_types_field_default_field_instances() {
         'module' => 'link',
         'settings' => array(),
         'type' => 'link_default',
-        'weight' => 5,
+        'weight' => 4,
       ),
       'test' => array(
         'label' => 'hidden',

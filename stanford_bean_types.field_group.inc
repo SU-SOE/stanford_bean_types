@@ -798,16 +798,15 @@ function stanford_bean_types_field_group_info() {
     'weight' => '10',
     'children' => array(
       0 => 'field_s_postcard_body',
-      1 => 'field_s_postcard_file',
-      2 => 'field_s_postcard_link',
-      3 => 'title',
+      1 => 'field_s_postcard_link',
+      2 => 'title',
     ),
     'format_type' => 'div',
     'format_settings' => array(
       'label' => 'Postcard Content',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'group-s-postcard-content field-group-div postcard-content',
+        'classes' => 'postcard-content group-s-postcard-content field-group-div ',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -994,7 +993,7 @@ function stanford_bean_types_field_group_info() {
       'label' => 'Postcard Image',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'group-s-postcard-image field-group-div postcard-image',
+        'classes' => 'postcard-image group-s-postcard-image field-group-div ',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
