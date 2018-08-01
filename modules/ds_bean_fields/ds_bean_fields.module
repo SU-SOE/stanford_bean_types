@@ -170,6 +170,3 @@ function ds_bean_fields_hyphenate($text, $langcode = NULL) {
 
   return phphyphenator_hyphenation($text, $pattern[$langcode]);
 }
-
-
-

@@ -159,6 +159,9 @@ function stanford_bean_types_strongarm() {
       'stanford_tiles' => array(
         'custom_settings' => FALSE,
       ),
+      'single_centered_button' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -188,6 +191,10 @@ function stanford_bean_types_strongarm() {
             'visible' => TRUE,
           ),
           'stanford_soe_default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'single_centered_button' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),

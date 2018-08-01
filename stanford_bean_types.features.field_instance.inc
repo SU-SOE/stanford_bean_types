@@ -1321,6 +1321,12 @@ function stanford_bean_types_field_default_field_instances() {
         'type' => 'field_collection_view',
         'weight' => 7,
       ),
+      'single_centered_button' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
       'stanford_3_col_header' => array(
         'label' => 'hidden',
         'module' => 'field_collection',
@@ -1433,6 +1439,13 @@ function stanford_bean_types_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 3,
       ),
+      'single_centered_button' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 7,
+      ),
       'stanford_3_col_header' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -1531,6 +1544,12 @@ function stanford_bean_types_field_default_field_instances() {
         'settings' => array(),
         'type' => 'file_default',
         'weight' => 4,
+      ),
+      'single_centered_button' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 5,
       ),
       'stanford_3_col_header' => array(
         'label' => 'hidden',
@@ -1728,6 +1747,12 @@ function stanford_bean_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 1,
       ),
+      'single_centered_button' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 6,
+      ),
       'stanford_3_col_header' => array(
         'label' => 'above',
         'settings' => array(),
@@ -1910,6 +1935,12 @@ function stanford_bean_types_field_default_field_instances() {
         'settings' => array(),
         'type' => 'link_default',
         'weight' => 5,
+      ),
+      'single_centered_button' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
       ),
       'stanford_3_col_header' => array(
         'label' => 'hidden',
