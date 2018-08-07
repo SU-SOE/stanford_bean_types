@@ -136,7 +136,7 @@ function stanford_bean_types_strongarm() {
         'custom_settings' => TRUE,
       ),
       'stanford_soe_default' => array(
-        'custom_settings' => TRUE,
+        'custom_settings' => FALSE,
       ),
       'header_370x170' => array(
         'custom_settings' => FALSE,
