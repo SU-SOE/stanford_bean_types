@@ -4,7 +4,7 @@ Stanford Bean Types
 -----------------------------------------------
 - Removing the soe-default view mode from the postcard block.
 
-7.x-2.9-dev                       2018-07-25
+7.x-2.9-alpha3                       2018-07-25
 -----------------------------------------------
 - This updates the field groups on the SoE Default view mode on the Stanford Postcard bean type.
 
