@@ -1312,9 +1312,13 @@ function stanford_bean_types_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'field_collection',
         'settings' => array(
-          'view_mode' => 'header_370x170',
+          'add' => '',
+          'delete' => '',
+          'description' => 0,
+          'edit' => '',
+          'view_mode' => 'stanford_4_col_header',
         ),
-        'type' => 'field_collection_fields',
+        'type' => 'field_collection_view',
         'weight' => 7,
       ),
       'single_centered_button' => array(
