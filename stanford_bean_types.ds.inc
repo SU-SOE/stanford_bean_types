@@ -31,21 +31,6 @@ function stanford_bean_types_ds_field_settings_info() {
   );
   $export['bean|stanford_icon_block|default'] = $ds_fieldsetting;
 
-  $ds_fieldsetting = new stdClass();
-  $ds_fieldsetting->api_version = 1;
-  $ds_fieldsetting->id = 'bean|stanford_postcard|stanford_soe_default';
-  $ds_fieldsetting->entity_type = 'bean';
-  $ds_fieldsetting->bundle = 'stanford_postcard';
-  $ds_fieldsetting->view_mode = 'stanford_soe_default';
-  $ds_fieldsetting->settings = array(
-    'title' => array(
-      'weight' => '2',
-      'label' => 'hidden',
-      'format' => 'default',
-    ),
-  );
-  $export['bean|stanford_postcard|stanford_soe_default'] = $ds_fieldsetting;
-
   return $export;
 }
 
