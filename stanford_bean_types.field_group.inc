@@ -18,14 +18,14 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'default';
-  $field_group->parent_name = '';
+  $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'first group',
-    'weight' => '2',
+    'weight' => '0',
     'children' => array(
       0 => 'group_s_circle_image_style',
     ),
-    'format_type' => 'hidden',
+    'format_type' => 'div',
     'format_settings' => array(
       'label' => 'first group',
       'instance_settings' => array(
@@ -40,7 +40,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_first_group|bean|stanford_testimonial_block|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -74,7 +74,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_postcard_content|bean|stanford_icon_block|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -106,7 +106,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_postcard_icon|bean|stanford_icon_block|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -139,7 +139,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_postcard|bean|stanford_icon_block|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -154,17 +154,15 @@ function stanford_bean_types_field_group_info() {
     'label' => 'postcard',
     'weight' => '0',
     'children' => array(
-      0 => 'group_s_superhead_style',
-      1 => 'group_s_credits_style',
-      2 => 'group_s_more_link_style',
-      3 => 'group_s_quote_style',
+      0 => 'group_first_group',
+      1 => 'group_second_group',
     ),
     'format_type' => 'div',
     'format_settings' => array(
       'label' => 'postcard',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'postcard',
+        'classes' => 'postcard-right',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -174,7 +172,41 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_postcard|bean|stanford_testimonial_block|default'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_postcard|bean|stanford_testimonial_block|stanford_soe_default';
+  $field_group->group_name = 'group_postcard';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_testimonial_block';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = '';
+  $field_group->data = array(
+    'label' => 'Postcard',
+    'weight' => '0',
+    'children' => array(
+      0 => 'group_s_credits_style',
+      1 => 'group_s_quote_style',
+      2 => 'group_s_superhead_style',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Postcard',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'group-postcard field-group-div postcard',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_postcard|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -206,7 +238,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_arrow_container|bean|stanford_postcard_linked|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -237,7 +269,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_big_text_style|bean|stanford_big_text_block|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -254,7 +286,7 @@ function stanford_bean_types_field_group_info() {
     'children' => array(
       0 => 'field_s_image_info',
     ),
-    'format_type' => 'hidden',
+    'format_type' => 'div',
     'format_settings' => array(
       'label' => 'Circle Image',
       'instance_settings' => array(
@@ -268,7 +300,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_circle_image_style|bean|stanford_testimonial_block|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -302,7 +334,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_contact_us_address|bean|stanford_contact|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -312,10 +344,10 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'default';
-  $field_group->parent_name = 'group_postcard';
+  $field_group->parent_name = 'group_second_group';
   $field_group->data = array(
     'label' => 'Credits',
-    'weight' => '9',
+    'weight' => '19',
     'children' => array(
       0 => 'field_s_testimonial_credits',
     ),
@@ -333,7 +365,39 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_credits_style|bean|stanford_testimonial_block|default'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_s_credits_style|bean|stanford_testimonial_block|stanford_soe_default';
+  $field_group->group_name = 'group_s_credits_style';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_testimonial_block';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = 'group_postcard';
+  $field_group->data = array(
+    'label' => 'Credits',
+    'weight' => '11',
+    'children' => array(
+      0 => 'field_s_testimonial_credits',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Credits',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'group-s-credits-style field-group-div credits',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_s_credits_style|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -366,7 +430,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_image_container|bean|stanford_postcard_linked|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -396,7 +460,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_image_link|bean|stanford_postcard_linked|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -427,7 +491,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_more_link_style|bean|stanford_big_text_block|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -437,10 +501,10 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'default';
-  $field_group->parent_name = 'group_postcard';
+  $field_group->parent_name = 'group_second_group';
   $field_group->data = array(
     'label' => 'More Link',
-    'weight' => '10',
+    'weight' => '20',
     'children' => array(
       0 => 'field_testimonial_more_link',
     ),
@@ -458,7 +522,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_more_link_style|bean|stanford_testimonial_block|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -488,7 +552,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'collapsed',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_post_link_advanced|bean|stanford_postcard_linked|form'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -520,7 +584,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_body|bean|stanford_postcard_linked|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -553,7 +617,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_content|bean|stanford_postcard_linked|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -586,7 +650,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_content|bean|stanford_postcard|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -619,7 +683,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_content|bean|stanford_postcard|stanford_3_col_header'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -652,7 +716,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_content|bean|stanford_postcard|stanford_4_col_header'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -685,7 +749,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_content|bean|stanford_postcard|stanford_6_col_photo_landscape'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -718,7 +782,41 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_content|bean|stanford_postcard|stanford_med_profile'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_s_postcard_content|bean|stanford_postcard|stanford_soe_default';
+  $field_group->group_name = 'group_s_postcard_content';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_postcard';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = 'group_s_postcard';
+  $field_group->data = array(
+    'label' => 'Postcard Content',
+    'weight' => '10',
+    'children' => array(
+      0 => 'field_s_postcard_body',
+      1 => 'field_s_postcard_link',
+      2 => 'title',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Postcard Content',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'postcard-content group-s-postcard-content field-group-div ',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_s_postcard_content|bean|stanford_postcard|stanford_soe_default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -749,7 +847,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_image|bean|stanford_postcard|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -780,7 +878,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_image|bean|stanford_postcard|stanford_3_col_header'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -811,7 +909,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_image|bean|stanford_postcard|stanford_4_col_header'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -842,7 +940,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_image|bean|stanford_postcard|stanford_6_col_photo_landscape'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -873,7 +971,39 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard_image|bean|stanford_postcard|stanford_med_profile'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_s_postcard_image|bean|stanford_postcard|stanford_soe_default';
+  $field_group->group_name = 'group_s_postcard_image';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_postcard';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = 'group_s_postcard';
+  $field_group->data = array(
+    'label' => 'Postcard Image',
+    'weight' => '0',
+    'children' => array(
+      0 => 'field_s_image_info',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Postcard Image',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'postcard-image group-s-postcard-image field-group-div ',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_s_postcard_image|bean|stanford_postcard|stanford_soe_default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -906,7 +1036,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard|bean|stanford_postcard_linked|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -938,7 +1068,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard|bean|stanford_postcard|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -970,7 +1100,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard|bean|stanford_postcard|stanford_3_col_header'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -1002,7 +1132,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard|bean|stanford_postcard|stanford_4_col_header'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -1034,7 +1164,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard|bean|stanford_postcard|stanford_6_col_photo_landscape'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -1066,7 +1196,40 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_postcard|bean|stanford_postcard|stanford_med_profile'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_s_postcard|bean|stanford_postcard|stanford_soe_default';
+  $field_group->group_name = 'group_s_postcard';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_postcard';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = '';
+  $field_group->data = array(
+    'label' => 'Postcard',
+    'weight' => '0',
+    'children' => array(
+      0 => 'group_s_postcard_content',
+      1 => 'group_s_postcard_image',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Postcard',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'group-s-postcard field-group-div postcard',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_s_postcard|bean|stanford_postcard|stanford_soe_default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -1076,10 +1239,10 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'default';
-  $field_group->parent_name = 'group_postcard';
+  $field_group->parent_name = 'group_second_group';
   $field_group->data = array(
     'label' => 'Quote',
-    'weight' => '8',
+    'weight' => '18',
     'children' => array(
       0 => 'field_s_testimonial_quote',
     ),
@@ -1097,20 +1260,52 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_quote_style|bean|stanford_testimonial_block|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
   $field_group->api_version = 1;
-  $field_group->identifier = 'group_s_superhead_style|bean|stanford_testimonial_block|default';
+  $field_group->identifier = 'group_s_quote_style|bean|stanford_testimonial_block|stanford_soe_default';
+  $field_group->group_name = 'group_s_quote_style';
+  $field_group->entity_type = 'bean';
+  $field_group->bundle = 'stanford_testimonial_block';
+  $field_group->mode = 'stanford_soe_default';
+  $field_group->parent_name = 'group_postcard';
+  $field_group->data = array(
+    'label' => 'Quote',
+    'weight' => '10',
+    'children' => array(
+      0 => 'field_s_testimonial_quote',
+    ),
+    'format_type' => 'div',
+    'format_settings' => array(
+      'label' => 'Quote',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => 'group-s-quote-style field-group-div quote',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
+    ),
+  );
+  $field_groups['group_s_quote_style|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
+  $field_group->identifier = 'group_s_superhead_style|bean|stanford_testimonial_block|stanford_soe_default';
   $field_group->group_name = 'group_s_superhead_style';
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
-  $field_group->mode = 'default';
+  $field_group->mode = 'stanford_soe_default';
   $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'Superhead',
-    'weight' => '7',
+    'weight' => '9',
     'children' => array(
       0 => 'field_s_testimonial_superhead',
     ),
@@ -1129,7 +1324,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_superhead_style|bean|stanford_testimonial_block|stanford_soe_default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -1161,7 +1356,7 @@ function stanford_bean_types_field_group_info() {
       'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_s_title_container|bean|stanford_postcard_linked|default'] = $field_group;
 
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
@@ -1171,18 +1366,31 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'default';
-  $field_group->parent_name = '';
+  $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'second group',
-    'weight' => '1',
-    'children' => array(),
-    'format_type' => 'hidden',
+    'weight' => '17',
+    'children' => array(
+      0 => 'group_s_credits_style',
+      1 => 'group_s_more_link_style',
+      2 => 'group_s_quote_style',
+    ),
+    'format_type' => 'div',
     'format_settings' => array(
-      'formatter' => '',
-      'instance_settings' => array(),
+      'label' => 'second group',
+      'instance_settings' => array(
+        'id' => '',
+        'classes' => '',
+        'description' => '',
+        'show_label' => '0',
+        'label_element' => 'h3',
+        'effect' => 'none',
+        'speed' => 'fast',
+      ),
+      'formatter' => 'open',
     ),
   );
-  $field_groups[''] = $field_group;
+  $field_groups['group_second_group|bean|stanford_testimonial_block|default'] = $field_group;
 
   // Translatables
   // Included for use with string extractors like potx.
