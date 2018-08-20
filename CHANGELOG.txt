@@ -1,5 +1,10 @@
 Stanford Bean Types
 
+7.x-2.9-alpha4                       2018-08-22
+ -----------------------------------------------
+ - Removing the soe-default view mode from the postcard block.
+ - Adding the single_centered_button view mode for buttons.
+
 7.x-2.9-alpha3                       2018-07-25
 -----------------------------------------------
 - This updates the field groups on the SoE Default view mode on the Stanford Postcard bean type.
