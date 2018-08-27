@@ -1,18 +1,19 @@
 <?php
 /**
  * @file
- * stanford_bean_types_hero.features.field_instance.inc
+ * stanford_bean_types_featured.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function stanford_bean_types_hero_field_default_field_instances() {
+function stanford_bean_types_featured_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'bean-stanford_hero_block-field_hero_block_hero'.
-  $field_instances['bean-stanford_hero_block-field_hero_block_hero'] = array(
-    'bundle' => 'stanford_hero_block',
+  // Exported field_instance:
+  // 'bean-stanford_featured_block-field_featured_block_featured'.
+  $field_instances['bean-stanford_featured_block-field_featured_block_featured'] = array(
+    'bundle' => 'stanford_featured_block',
     'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
@@ -46,8 +47,8 @@ function stanford_bean_types_hero_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'bean',
-    'field_name' => 'field_hero_block_hero',
-    'label' => 'Hero',
+    'field_name' => 'field_featured_block_featured',
+    'label' => 'Featured',
     'required' => 0,
     'settings' => array(
       'add_mode' => 'button',
@@ -55,7 +56,7 @@ function stanford_bean_types_hero_field_default_field_instances() {
         'p_buttons' => -1,
         'p_callout' => -1,
         'p_cards' => -1,
-        'p_hero' => 'p_hero',
+        'p_featured' => 'p_featured',
         'p_icon' => -1,
         'p_menu' => -1,
         'p_wysiwyg' => -1,
@@ -64,7 +65,7 @@ function stanford_bean_types_hero_field_default_field_instances() {
         'p_buttons' => 2,
         'p_callout' => 3,
         'p_cards' => 4,
-        'p_hero' => 5,
+        'p_featured' => 5,
         'p_icon' => 6,
         'p_menu' => 7,
         'p_wysiwyg' => 8,
@@ -83,9 +84,10 @@ function stanford_bean_types_hero_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'bean-stanford_hero_block-field_hero_block_style'.
-  $field_instances['bean-stanford_hero_block-field_hero_block_style'] = array(
-    'bundle' => 'stanford_hero_block',
+  // Exported field_instance:
+  // 'bean-stanford_featured_block-field_featured_block_style'.
+  $field_instances['bean-stanford_featured_block-field_featured_block_style'] = array(
+    'bundle' => 'stanford_featured_block',
     'default_value' => array(
       0 => array(
         'value' => 'curtain',
@@ -114,7 +116,7 @@ function stanford_bean_types_hero_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'bean',
-    'field_name' => 'field_hero_block_style',
+    'field_name' => 'field_featured_block_style',
     'label' => 'Style',
     'required' => 1,
     'settings' => array(
@@ -123,7 +125,9 @@ function stanford_bean_types_hero_field_default_field_instances() {
     'widget' => array(
       'active' => 1,
       'module' => 'options',
-      'settings' => array(),
+      'settings' => array(
+        'apply_chosen' => '',
+      ),
       'type' => 'options_select',
       'weight' => 1,
     ),
@@ -131,7 +135,7 @@ function stanford_bean_types_hero_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Hero');
+  t('Featured');
   t('Style');
 
   return $field_instances;

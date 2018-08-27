@@ -1,22 +1,22 @@
 <?php
 /**
  * @file
- * stanford_bean_types_hero.features.field_base.inc
+ * stanford_bean_types_featured.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function stanford_bean_types_hero_field_default_field_bases() {
+function stanford_bean_types_featured_field_default_field_bases() {
   $field_bases = array();
 
-  // Exported field_base: 'field_hero_block_hero'.
-  $field_bases['field_hero_block_hero'] = array(
+  // Exported field_base: 'field_featured_block_featured'.
+  $field_bases['field_featured_block_featured'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_hero_block_hero',
+    'field_name' => 'field_featured_block_featured',
     'indexes' => array(),
     'locked' => 0,
     'module' => 'paragraphs',
@@ -25,13 +25,13 @@ function stanford_bean_types_hero_field_default_field_bases() {
     'type' => 'paragraphs',
   );
 
-  // Exported field_base: 'field_hero_block_style'.
-  $field_bases['field_hero_block_style'] = array(
+  // Exported field_base: 'field_featured_block_style'.
+  $field_bases['field_featured_block_style'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_hero_block_style',
+    'field_name' => 'field_featured_block_style',
     'indexes' => array(
       'value' => array(
         0 => 'value',
