@@ -569,8 +569,7 @@ function stanford_bean_types_field_group_info() {
     'weight' => '8',
     'children' => array(
       0 => 'field_s_postcard_body',
-      1 => 'field_s_postcard_file',
-      2 => 'field_s_postcard_link',
+      1 => 'field_s_postcard_link',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -602,8 +601,7 @@ function stanford_bean_types_field_group_info() {
     'weight' => '3',
     'children' => array(
       0 => 'field_s_postcard_body',
-      1 => 'field_s_postcard_file',
-      2 => 'field_s_postcard_link',
+      1 => 'field_s_postcard_link',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -635,8 +633,7 @@ function stanford_bean_types_field_group_info() {
     'weight' => '7',
     'children' => array(
       0 => 'field_s_postcard_body',
-      1 => 'field_s_postcard_file',
-      2 => 'field_s_postcard_link',
+      1 => 'field_s_postcard_link',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -668,8 +665,7 @@ function stanford_bean_types_field_group_info() {
     'weight' => '7',
     'children' => array(
       0 => 'field_s_postcard_body',
-      1 => 'field_s_postcard_file',
-      2 => 'field_s_postcard_link',
+      1 => 'field_s_postcard_link',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -951,10 +947,10 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Postcard',
-    'weight' => '1',
+    'weight' => '0',
     'children' => array(
-      0 => 'group_s_postcard_image',
-      1 => 'group_s_postcard_content',
+      0 => 'group_s_postcard_content',
+      1 => 'group_s_postcard_image',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -983,10 +979,10 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Postcard',
-    'weight' => '1',
+    'weight' => '0',
     'children' => array(
-      0 => 'group_s_postcard_image',
-      1 => 'group_s_postcard_content',
+      0 => 'group_s_postcard_content',
+      1 => 'group_s_postcard_image',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -1015,10 +1011,10 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Postcard',
-    'weight' => '1',
+    'weight' => '0',
     'children' => array(
-      0 => 'group_s_postcard_image',
-      1 => 'group_s_postcard_content',
+      0 => 'group_s_postcard_content',
+      1 => 'group_s_postcard_image',
     ),
     'format_type' => 'div',
     'format_settings' => array(
