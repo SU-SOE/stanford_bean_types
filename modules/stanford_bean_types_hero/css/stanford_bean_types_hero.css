@@ -1,0 +1,138 @@
+/* line 7, ../scss/stanford_bean_types_hero.scss */
+html.js body > div[class*="hero"]:not([class*="reveal"]) img {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100vh; }
+/* line 14, ../scss/stanford_bean_types_hero.scss */
+html.js body > div[class*="hero"]:not([class*="reveal"]) iframe {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+/* line 20, ../scss/stanford_bean_types_hero.scss */
+html.js body > div[class*="hero"]:not([class*="reveal"]) a {
+  z-index: 20; }
+/* line 24, ../scss/stanford_bean_types_hero.scss */
+html.js body > div[class*="hero"]:not([class*="reveal"]) .player {
+  padding-bottom: 0;
+  height: auto; }
+/* line 29, ../scss/stanford_bean_types_hero.scss */
+html.js body > div[class*="hero"]:not([class*="reveal"]) .entity-paragraphs-item {
+  margin-bottom: 0; }
+/* line 35, ../scss/stanford_bean_types_hero.scss */
+html.js body > .hero-curtain {
+  background: transparent;
+  position: relative; }
+  /* line 39, ../scss/stanford_bean_types_hero.scss */
+  html.js body > .hero-curtain > * {
+    z-index: 10;
+    position: relative; }
+  /* line 44, ../scss/stanford_bean_types_hero.scss */
+  html.js body > .hero-curtain .entity {
+    background: #000; }
+  /* line 48, ../scss/stanford_bean_types_hero.scss */
+  html.js body > .hero-curtain.below-hero {
+    padding-bottom: 0 !important; }
+/* line 54, ../scss/stanford_bean_types_hero.scss */
+html.js body > .hero-curtain-reveal {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  /* line 59, ../scss/stanford_bean_types_hero.scss */
+  html.js body > .hero-curtain-reveal.below-hero {
+    position: relative; }
+/* line 65, ../scss/stanford_bean_types_hero.scss */
+html.js body > .hero-scroll a.scroll-down {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  font-size: 80px;
+  left: calc(50% - 40px);
+  text-align: center; }
+  /* line 73, ../scss/stanford_bean_types_hero.scss */
+  html.js body > .hero-scroll a.scroll-down .scroll-text {
+    font-size: 20px; }
+/* line 82, ../scss/stanford_bean_types_hero.scss */
+html.js .paragraphs-item-p-hero a.play-video {
+  display: block;
+  font-size: 0;
+  color: #ffffff;
+  z-index: 1; }
+/* line 88, ../scss/stanford_bean_types_hero.scss */
+html.js .paragraphs-item-p-hero .field-name-field-p-hero-image {
+  background: #16039a; }
+  /* line 91, ../scss/stanford_bean_types_hero.scss */
+  html.js .paragraphs-item-p-hero .field-name-field-p-hero-image img {
+    opacity: .4; }
+/* line 96, ../scss/stanford_bean_types_hero.scss */
+html.js .paragraphs-item-p-hero div.group-overlay-text {
+  background-color: transparent;
+  color: #ffffff;
+  bottom: calc(20% - 40px);
+  text-align: center; }
+  /* line 102, ../scss/stanford_bean_types_hero.scss */
+  html.js .paragraphs-item-p-hero div.group-overlay-text .group-headline-h2 {
+    color: #ffffff;
+    margin: 20px 20% 40px;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #ffbd54;
+    text-decoration-color: #ffbd54; }
+  /* line 110, ../scss/stanford_bean_types_hero.scss */
+  html.js .paragraphs-item-p-hero div.group-overlay-text .field-name-field-p-hero-superhead {
+    font-size: 1.2em;
+    font-weight: 600; }
+  /* line 115, ../scss/stanford_bean_types_hero.scss */
+  html.js .paragraphs-item-p-hero div.group-overlay-text .field-name-field-p-hero-description {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin: 0 10% 40px; }
+    @media (max-width: 1200px) and (min-width: 979px) {
+      /* line 115, ../scss/stanford_bean_types_hero.scss */
+      html.js .paragraphs-item-p-hero div.group-overlay-text .field-name-field-p-hero-description {
+        margin: 0 0 40px; } }
+  /* line 125, ../scss/stanford_bean_types_hero.scss */
+  html.js .paragraphs-item-p-hero div.group-overlay-text .btn {
+    padding: 1.2em 6% 1.3em;
+    font-size: 1.2em; }
+/* line 134, ../scss/stanford_bean_types_hero.scss */
+html.js #content .paragraphs-item-p-hero a.play-video {
+  display: block;
+  font-size: 0;
+  color: #ffffff;
+  z-index: 1; }
+/* line 140, ../scss/stanford_bean_types_hero.scss */
+html.js #content .paragraphs-item-p-hero .field-name-field-p-hero-image {
+  background: #16039a; }
+  /* line 143, ../scss/stanford_bean_types_hero.scss */
+  html.js #content .paragraphs-item-p-hero .field-name-field-p-hero-image img {
+    opacity: .4; }
+/* line 148, ../scss/stanford_bean_types_hero.scss */
+html.js #content .paragraphs-item-p-hero div.group-overlay-text {
+  background-color: transparent;
+  color: #ffffff;
+  bottom: .1em;
+  text-align: center; }
+  /* line 154, ../scss/stanford_bean_types_hero.scss */
+  html.js #content .paragraphs-item-p-hero div.group-overlay-text .group-headline-h2 {
+    color: #ffffff;
+    margin: 20px 20% 40px;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #ffbd54;
+    text-decoration-color: #ffbd54; }
+  /* line 162, ../scss/stanford_bean_types_hero.scss */
+  html.js #content .paragraphs-item-p-hero div.group-overlay-text .field-name-field-p-hero-superhead {
+    font-size: 1.2em;
+    font-weight: 600; }
+  /* line 167, ../scss/stanford_bean_types_hero.scss */
+  html.js #content .paragraphs-item-p-hero div.group-overlay-text .field-name-field-p-hero-description {
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin: 0 10% 40px; }
+    @media (max-width: 1200px) and (min-width: 979px) {
+      /* line 167, ../scss/stanford_bean_types_hero.scss */
+      html.js #content .paragraphs-item-p-hero div.group-overlay-text .field-name-field-p-hero-description {
+        margin: 0 0 40px; } }
+  /* line 177, ../scss/stanford_bean_types_hero.scss */
+  html.js #content .paragraphs-item-p-hero div.group-overlay-text .btn {
+    padding: 1.2em 6% 1.3em;
+    font-size: 1.2em; }
