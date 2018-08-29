@@ -18,14 +18,12 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'default';
-  $field_group->parent_name = 'group_postcard';
+  $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'first group',
     'weight' => '2',
-    'children' => array(
-      0 => 'group_s_circle_image_style',
-    ),
-    'format_type' => 'div',
+    'children' => array(),
+    'format_type' => 'hidden',
     'format_settings' => array(
       'label' => 'first group',
       'instance_settings' => array(
@@ -154,20 +152,18 @@ function stanford_bean_types_field_group_info() {
     'label' => 'postcard',
     'weight' => '0',
     'children' => array(
-      0 => 'group_first_group',
-      1 => 'group_s_circle_image_style',
-      2 => 'group_s_credits_style',
-      3 => 'group_s_more_link_style',
-      4 => 'group_s_quote_style',
-      5 => 'group_s_superhead_style',
-      6 => 'group_second_group',
+      0 => 'group_s_circle_image_style',
+      1 => 'group_s_credits_style',
+      2 => 'group_s_more_link_style',
+      3 => 'group_s_quote_style',
+      4 => 'group_s_superhead_style',
     ),
     'format_type' => 'div',
     'format_settings' => array(
       'label' => 'postcard',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'postcard-right',
+        'classes' => 'postcard',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -253,7 +249,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'Circle Image',
-    'weight' => '6',
+    'weight' => '8',
     'children' => array(
       0 => 'field_s_image_info',
     ),
@@ -262,7 +258,7 @@ function stanford_bean_types_field_group_info() {
       'label' => 'Circle Image',
       'instance_settings' => array(
         'id' => '',
-        'classes' => 'circle-image',
+        'classes' => 'group-s-circle-image-style field-group-div circle-image',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',
@@ -319,7 +315,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'Credits',
-    'weight' => '7',
+    'weight' => '10',
     'children' => array(
       0 => 'field_s_testimonial_credits',
     ),
@@ -444,7 +440,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'More Link',
-    'weight' => '8',
+    'weight' => '11',
     'children' => array(
       0 => 'field_testimonial_more_link',
     ),
@@ -1083,7 +1079,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'Quote',
-    'weight' => '5',
+    'weight' => '9',
     'children' => array(
       0 => 'field_s_testimonial_quote',
     ),
@@ -1114,7 +1110,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'Superhead',
-    'weight' => '4',
+    'weight' => '7',
     'children' => array(
       0 => 'field_s_testimonial_superhead',
     ),
@@ -1175,29 +1171,15 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'default';
-  $field_group->parent_name = 'group_postcard';
+  $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'second group',
-    'weight' => '3',
-    'children' => array(
-      0 => 'group_s_credits_style',
-      1 => 'group_s_more_link_style',
-      2 => 'group_s_quote_style',
-      3 => 'group_s_superhead_style',
-    ),
-    'format_type' => 'div',
+    'weight' => '1',
+    'children' => array(),
+    'format_type' => 'hidden',
     'format_settings' => array(
-      'label' => 'second group',
-      'instance_settings' => array(
-        'id' => '',
-        'classes' => '',
-        'description' => '',
-        'show_label' => '0',
-        'label_element' => 'h3',
-        'effect' => 'none',
-        'speed' => 'fast',
-      ),
-      'formatter' => 'open',
+      'formatter' => '',
+      'instance_settings' => array(),
     ),
   );
   $field_groups['group_second_group|bean|stanford_testimonial_block|default'] = $field_group;
