@@ -20,26 +20,7 @@ function stanford_bean_types_hero_entity_view($entity, $type, $view_mode, $langc
     drupal_add_js($setting, array('type' => 'setting'));
     $path = drupal_get_path('module', 'stanford_bean_types_hero');
     $entity->content['#attached']['css'][] = "$path/css/stanford_bean_types_hero.css";
-    $entity->content['#attached']['js'][] = "$path/js/stanford_bean_types_hero.js";
   }
-}
-
-/**
- * Implements hook_entity_view_mode_alter().
- */
-function stanford_bean_types_hero_entity_view_mode_alter(&$view_mode, $context) {
-  if ($context['entity_type'] == 'bean' && $context['entity']->type == 'stanford_hero_block') {
-    switch ($context['entity']->field_hero_block_style[LANGUAGE_NONE][0]['value']) {
-      case 'static':
-        $view_mode = 'stanford_12_col_banner_tall';
-        break;
-
-      case 'scroll':
-        $view_mode = 'large_landscape';
-        break;
-    }
-  }
-
 }
 
 /**
