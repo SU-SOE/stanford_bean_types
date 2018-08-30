@@ -18,17 +18,3 @@ function stanford_bean_types_featured_ctools_plugin_api($module = NULL, $api = N
     return array("version" => "1");
   }
 }
-
-/**
- * Implements hook_paragraphs_info().
- */
-function stanford_bean_types_featured_paragraphs_info() {
-  $items = array(
-    'p_featured' => array(
-      'name' => 'Featured',
-      'bundle' => 'p_featured',
-      'locked' => '1',
-    ),
-  );
-  return $items;
-}
