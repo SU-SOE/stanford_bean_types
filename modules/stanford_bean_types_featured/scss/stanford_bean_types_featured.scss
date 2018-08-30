@@ -13,6 +13,7 @@
 
     img {
       opacity: .4;
+      width: 100%;
     }
   }
 
@@ -21,11 +22,10 @@
     color: #ffffff;
     bottom: .1em;
     text-align: center;
-    top: calc(25% - 40px);
-    right: calc(3% - 40px);
+    top: calc(15% - 40px);
     padding: 0;
     width: 100%;
-
+    position: absolute;
 
     .group-headline-h2 {
       color: #ffffff;
@@ -42,36 +42,32 @@
           content: '';
         }
 
-        &.btn-orange {
-          -webkit-text-decoration-color: #ffbd54;
-          text-decoration-color: #ffbd54;
-        }
-
-        &.btn-pink {
-          -webkit-text-decoration-color: #FF525C;
-          text-decoration-color: #FF525C;
-        }
-
-        &.btn-turquoise {
+        &:hover {
           -webkit-text-decoration-color: #00ECE9;
           text-decoration-color: #00ECE9;
         }
-      }
-
-      a.btn:hover {
-        color: #ffffff;
       }
     }
 
     .field-name-field-p-featured-superhead {
       font-size: 1.2em;
       font-weight: 600;
+
+      a {
+        color: #ffffff;
+        text-decoration: underline;
+
+        &:hover {
+          -webkit-text-decoration-color: #ffbd54;
+          text-decoration-color: #ffbd54;
+        }
+      }
     }
 
     .field-name-field-p-featured-description {
       font-size: 1.2em;
       line-height: 1.2em;
-      margin: 0 calc(20% - 40px) 40px;
+      margin: 0 calc(10% - 40px) 40px;
 
       @media (max-width: 1200px) and (min-width: 979px) {
         margin: 0 0 40px;
@@ -85,10 +81,6 @@
       @media (max-width: 1200px) and (min-width: 979px) {
         margin: 0 0 40px;
       }
-    }
-
-    .field-name-field-p-featured-more-link {
-      margin-top: 60px;
     }
 
     .btn,
@@ -101,6 +93,14 @@
       font-weight: 400;
       padding: .8em calc(15% - 40px) .8em;
       text-align: center;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+
+    .btn {
+      color: #ffffff;
     }
   }
 }
