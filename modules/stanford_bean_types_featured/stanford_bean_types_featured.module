@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Code for the Stanford Bean Types Featured feature.
+ */
+
+include_once 'stanford_bean_types_featured.features.inc';
+
+/**
+ * Implements hook_entity_view().
+ */
+function stanford_bean_types_featured_entity_view($entity, $type, $view_mode, $langcode) {
+  if ($type == 'bean' && $entity->type == 'stanford_featured_block') {
+    $setting = array(
+      'stanford_bean_types_featured' => array(
+        'featuredMenu' => variable_get('stanford_bean_types_featured_menu', FALSE),
+      ),
+    );
+    drupal_add_js($setting, array('type' => 'setting'));
+    $path = drupal_get_path('module', 'stanford_bean_types_featured');
+    $entity->content['#attached']['css'][] = "$path/css/stanford_bean_types_featured.css";
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function stanford_bean_types_featured_form_bean_form_alter(&$form, &$form_state, $form_id) {
+  if ($form['#bundle'] == 'stanford_featured_block') {
+    $form['title']['#type'] = $form['view_mode']['#type'] = 'hidden';
+  }
+}
