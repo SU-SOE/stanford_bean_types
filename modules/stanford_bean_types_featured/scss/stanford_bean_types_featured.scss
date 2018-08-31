@@ -1,5 +1,68 @@
-.ytp-large-play-button {
-  z-index: 20;
+div[class*="featured"]:not([class*="reveal"]) {
+
+  img {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+  }
+
+  a {
+    z-index: 20;
+  }
+
+  .player {
+    padding-bottom: 0;
+    height: 100%;
+  }
+
+  .entity-paragraphs-item {
+    margin-bottom: 0;
+  }
+
+}
+
+.featured-curtain {
+  background: transparent;
+  position: relative;
+
+  > * {
+    z-index: 10;
+    position: relative;
+  }
+
+  .entity {
+    background: #000;
+  }
+
+  &.below-featured {
+    // Need this to override the margin set by javascript.
+    padding-bottom: 0 !important;
+  }
+}
+
+.featured-curtain-reveal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  &.below-featured {
+    position: relative;
+  }
+}
+
+.featured-scroll {
+  a.scroll-down {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    font-size: 80px;
+    left: calc(50% - 40px);
+    text-align: center;
+
+    .scroll-text {
+      font-size: 20px;
+    }
+  }
 }
 
 .paragraphs-item-p-featured {
@@ -38,8 +101,8 @@
     padding: 0;
     width: 100%;
     position: absolute;
-    z-index: 20;
-    
+    z-index: 4;
+
     .group-headline-h2 {
       color: #ffffff;
       margin: 20px 20% 40px;
