@@ -199,6 +199,10 @@ div[class*="featured"]:not([class*="reveal"]) {
       position: relative;
       width: 65%;
       height: auto;
+
+      img {
+        height: 350px;
+      }
     }
 
     .field-name-field-p-featured-video {
@@ -212,8 +216,7 @@ div[class*="featured"]:not([class*="reveal"]) {
       float: right;
       position: relative;
       width: 35%;
-      margin-top: 1.5%;
-      height: auto;
+      height: 350px;
       top: 0;
 
       .btn {
@@ -232,9 +235,13 @@ div[class*="featured"]:not([class*="reveal"]) {
         padding: 0 1%;
       }
 
-      .field-name-field-p-featured-superhead a {
-        color: #000000;
-        margin-top: 20px;
+      .field-name-field-p-featured-superhead {
+        margin-top: 40px;
+
+        a {
+          color: #000000;
+          margin-top: 20px;
+        }
       }
 
       .group-headline-h2 {
@@ -250,5 +257,5 @@ div[class*="featured"]:not([class*="reveal"]) {
 }
 
 .entity-paragraphs-item iframe[src*="youtube"], .entity-paragraphs-item iframe[src*="vimeo"] {
-  height: 318px;
+  height: 350px;
 }
