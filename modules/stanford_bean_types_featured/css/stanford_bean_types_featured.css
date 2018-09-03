@@ -84,7 +84,7 @@ div[class*="featured"]:not([class*="reveal"]) .entity-paragraphs-item {
     padding: 0;
     width: 100%;
     position: absolute;
-    z-index: 4; }
+    z-index: 1; }
     /* line 106, ../scss/stanford_bean_types_featured.scss */
     .paragraphs-item-p-featured div.group-overlay-text .group-headline-h2 {
       color: #ffffff;
@@ -156,3 +156,58 @@ div[class*="featured"]:not([class*="reveal"]) .entity-paragraphs-item {
 /* line 185, ../scss/stanford_bean_types_featured.scss */
 .fullwidth .paragraphs-item-p-featured div.group-overlay-text.group-overlay-text {
   top: calc(35% - 40px); }
+
+/* line 191, ../scss/stanford_bean_types_featured.scss */
+.no-margin .bean-stanford-featured-block {
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: auto; }
+  /* line 197, ../scss/stanford_bean_types_featured.scss */
+  .no-margin .bean-stanford-featured-block .field-name-field-p-featured-image {
+    float: left;
+    position: relative;
+    width: 65%;
+    height: auto; }
+  /* line 204, ../scss/stanford_bean_types_featured.scss */
+  .no-margin .bean-stanford-featured-block .field-name-field-p-featured-video {
+    float: left;
+    position: absolute;
+    width: 65%;
+    height: auto; }
+  /* line 211, ../scss/stanford_bean_types_featured.scss */
+  .no-margin .bean-stanford-featured-block .group-overlay-text {
+    float: right;
+    position: relative;
+    width: 35%;
+    margin-top: 1.5%;
+    height: auto;
+    top: 0; }
+    /* line 219, ../scss/stanford_bean_types_featured.scss */
+    .no-margin .bean-stanford-featured-block .group-overlay-text .btn {
+      font-size: 1.9rem; }
+    /* line 223, ../scss/stanford_bean_types_featured.scss */
+    .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-headline {
+      color: #000000;
+      font-size: .9em; }
+    /* line 228, ../scss/stanford_bean_types_featured.scss */
+    .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-description {
+      color: #000000;
+      font-size: .8em;
+      margin: 0 calc(10% - 30px) 30px;
+      padding: 0 1%; }
+    /* line 235, ../scss/stanford_bean_types_featured.scss */
+    .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-superhead a {
+      color: #000000;
+      margin-top: 20px; }
+    /* line 240, ../scss/stanford_bean_types_featured.scss */
+    .no-margin .bean-stanford-featured-block .group-overlay-text .group-headline-h2 {
+      margin: 5% 20%; }
+  /* line 245, ../scss/stanford_bean_types_featured.scss */
+  .no-margin .bean-stanford-featured-block .featured-curtain .entity {
+    background: #ffffff;
+    height: auto; }
+
+/* line 252, ../scss/stanford_bean_types_featured.scss */
+.entity-paragraphs-item iframe[src*="youtube"], .entity-paragraphs-item iframe[src*="vimeo"] {
+  height: 318px; }

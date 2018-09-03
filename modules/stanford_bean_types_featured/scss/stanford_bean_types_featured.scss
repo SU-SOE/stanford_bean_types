@@ -101,7 +101,7 @@ div[class*="featured"]:not([class*="reveal"]) {
     padding: 0;
     width: 100%;
     position: absolute;
-    z-index: 4;
+    z-index: 1;
 
     .group-headline-h2 {
       color: #ffffff;
@@ -185,4 +185,70 @@ div[class*="featured"]:not([class*="reveal"]) {
   div.group-overlay-text.group-overlay-text {
     top: calc(35% - 40px);
   }
+}
+
+.no-margin {
+  .bean-stanford-featured-block {
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: auto;
+
+    .field-name-field-p-featured-image {
+      float: left;
+      position: relative;
+      width: 65%;
+      height: auto;
+    }
+
+    .field-name-field-p-featured-video {
+      float: left;
+      position: absolute;
+      width: 65%;
+      height: auto;
+    }
+
+    .group-overlay-text {
+      float: right;
+      position: relative;
+      width: 35%;
+      margin-top: 1.5%;
+      height: auto;
+      top: 0;
+
+      .btn {
+        font-size: 1.9rem;
+      }
+
+      .field-name-field-p-featured-headline {
+        color: #000000;
+        font-size: .9em;
+      }
+
+      .field-name-field-p-featured-description {
+        color: #000000;
+        font-size: .8em;
+        margin: 0 calc(10% - 30px) 30px;
+        padding: 0 1%;
+      }
+
+      .field-name-field-p-featured-superhead a {
+        color: #000000;
+        margin-top: 20px;
+      }
+
+      .group-headline-h2 {
+        margin: 5% 20%;
+      }
+    }
+
+    .featured-curtain .entity {
+      background: #ffffff;
+      height: auto;
+    }
+  }
+}
+
+.entity-paragraphs-item iframe[src*="youtube"], .entity-paragraphs-item iframe[src*="vimeo"] {
+  height: 318px;
 }
