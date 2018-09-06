@@ -4,6 +4,7 @@ div[class*="featured"]:not([class*="reveal"]) {
     object-fit: cover;
     object-position: center center;
     width: 100%;
+    height: auto;
   }
 
   a {
@@ -21,50 +22,6 @@ div[class*="featured"]:not([class*="reveal"]) {
 
 }
 
-.featured-curtain {
-  background: transparent;
-  position: relative;
-
-  > * {
-    z-index: 10;
-    position: relative;
-  }
-
-  .entity {
-    background: #000;
-  }
-
-  &.below-featured {
-    // Need this to override the margin set by javascript.
-    padding-bottom: 0 !important;
-  }
-}
-
-.featured-curtain-reveal {
-  position: fixed;
-  top: 0;
-  width: 100%;
-
-  &.below-featured {
-    position: relative;
-  }
-}
-
-.featured-scroll {
-  a.scroll-down {
-    position: absolute;
-    color: #fff;
-    bottom: 0;
-    font-size: 80px;
-    left: calc(50% - 40px);
-    text-align: center;
-
-    .scroll-text {
-      font-size: 20px;
-    }
-  }
-}
-
 .paragraphs-item-p-featured {
   margin-bottom: 0;
 
@@ -76,40 +33,53 @@ div[class*="featured"]:not([class*="reveal"]) {
   }
 
   .field-name-field-p-featured-image {
-    background: #01004d;
+    background: #011429;
     position: relative;
     z-index: 2;
+
     img {
       opacity: .4;
       width: 100%;
+      height: auto;
     }
   }
 
   .field-name-field-p-featured-video {
     position: absolute;
     width: 100%;
+    height: auto;
     top: -20px;
     z-index: 1;
   }
 
   div.group-overlay-text {
     background-color: transparent;
-    color: #ffffff;
-    bottom: .1em;
-    text-align: center;
-    top: calc(15% - 40px);
+    color: #fff;
+    display: table;
+    float: left;
+    height: 100%;
     padding: 0;
-    width: 100%;
     position: absolute;
-    z-index: 1;
+    text-align: center;
+    top: 5%;
+    width: 100%;
+    z-index: 2;
+
+    > div,
+    > h2 {
+      display: table-cell;
+      float: left;
+      vertical-align: middle;
+      width: 100%;
+    }
 
     .group-headline-h2 {
       color: #ffffff;
-      margin: 20px 20% 40px;
+      margin: 20px 0 40px;
 
       a {
         background-color: transparent;
-        color: #ffffff;
+        color: #fff;
         padding: 0;
         box-shadow: none;
         margin: 0;
@@ -130,7 +100,7 @@ div[class*="featured"]:not([class*="reveal"]) {
       font-weight: 600;
 
       a {
-        color: #ffffff;
+        color: #fff;
         text-decoration: underline;
 
         &:hover {
@@ -143,7 +113,11 @@ div[class*="featured"]:not([class*="reveal"]) {
     .field-name-field-p-featured-description {
       font-size: 1.2em;
       line-height: 1.2em;
-      margin: 0 calc(10% - 40px) 40px;
+      margin: 0 0 40px;
+
+      .field-items {
+        margin: 0 10%;
+      }
 
       @media (max-width: 1200px) and (min-width: 979px) {
         margin: 0 0 40px;
@@ -182,10 +156,77 @@ div[class*="featured"]:not([class*="reveal"]) {
 }
 
 .fullwidth .paragraphs-item-p-featured {
-  div.group-overlay-text.group-overlay-text {
-    top: calc(35% - 40px);
+  div.group-overlay-text {
+    top: 30%;
   }
 }
+
+//.bean-stanford-featured-block {
+//  float: left;
+//  margin-bottom: 5%;
+//  height: auto;
+//  width: 100%;
+//
+//  .field-name-field-p-featured-image {
+//    float: left;
+//    position: relative;
+//    width: 100%;
+//    height: auto;
+//
+//    img {
+//      height: auto;
+//    }
+//  }
+//
+//  .field-name-field-p-featured-video {
+//    float: left;
+//    position: relative;
+//    width: 65%;
+//    height: auto;
+//  }
+//
+//  .group-overlay-text {
+//    float: right;
+//    position: relative;
+//    width: auto;
+//    height: auto;
+//    top: 0;
+//
+//    .btn {
+//      font-size: 1.9rem;
+//    }
+//
+//    .field-name-field-p-featured-headline {
+//      color: #000000;
+//      font-size: .9em;
+//    }
+//
+//    .field-name-field-p-featured-description {
+//      color: #000000;
+//      font-size: .8em;
+//      margin: 0 calc(10% - 30px) 30px;
+//      padding: 0 1%;
+//    }
+//
+//    .field-name-field-p-featured-superhead {
+//      margin-top: 20px;
+//
+//      a {
+//        color: #000000;
+//        margin-top: 20px;
+//      }
+//    }
+//
+//    .group-headline-h2 {
+//      margin: 5% 20%;
+//    }
+//  }
+//
+//  .featured-curtain .entity {
+//    background: #ffffff;
+//    height: auto;
+//  }
+//}
 
 .no-margin {
   .bean-stanford-featured-block {
@@ -215,8 +256,8 @@ div[class*="featured"]:not([class*="reveal"]) {
     .group-overlay-text {
       float: right;
       position: relative;
-      width: 35%;
-      height: 350px;
+      width: auto;
+      height: auto;
       top: 0;
 
       .btn {
