@@ -159,65 +159,81 @@ div[class*="featured"]:not([class*="reveal"]) .entity-paragraphs-item {
       color: #ffffff; }
 
 /* line 191, ../scss/stanford_bean_types_featured.scss */
+.paragraphs-item-p-featured.has-video .field-name-field-p-featured-image,
+.paragraphs-item-p-featured.has-video .field-name-field-p-featured-video {
+  float: left;
+  width: 65%; }
+/* line 198, ../scss/stanford_bean_types_featured.scss */
+.paragraphs-item-p-featured.has-video .field-name-field-p-featured-image {
+  display: inline-table; }
+/* line 202, ../scss/stanford_bean_types_featured.scss */
+.paragraphs-item-p-featured.has-video .group-overlay-text {
+  background: #fff;
+  color: #000;
+  display: inline-table;
+  float: right;
+  width: 35%; }
+
+/* line 212, ../scss/stanford_bean_types_featured.scss */
 .fullwidth .paragraphs-item-p-featured div.group-overlay-text {
   top: 30%; }
 
-/* line 264, ../scss/stanford_bean_types_featured.scss */
+/* line 218, ../scss/stanford_bean_types_featured.scss */
 .no-margin .bean-stanford-featured-block {
   margin-bottom: 5%;
   margin-left: 15%;
   margin-right: 15%;
   height: auto; }
-  /* line 270, ../scss/stanford_bean_types_featured.scss */
+  /* line 224, ../scss/stanford_bean_types_featured.scss */
   .no-margin .bean-stanford-featured-block .field-name-field-p-featured-image {
     float: left;
     position: relative;
     width: 65%;
     height: auto; }
-    /* line 276, ../scss/stanford_bean_types_featured.scss */
+    /* line 230, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .field-name-field-p-featured-image img {
       height: 350px; }
-  /* line 281, ../scss/stanford_bean_types_featured.scss */
+  /* line 235, ../scss/stanford_bean_types_featured.scss */
   .no-margin .bean-stanford-featured-block .field-name-field-p-featured-video {
     float: left;
     position: absolute;
     width: 65%;
     height: auto; }
-  /* line 288, ../scss/stanford_bean_types_featured.scss */
+  /* line 242, ../scss/stanford_bean_types_featured.scss */
   .no-margin .bean-stanford-featured-block .group-overlay-text {
     float: right;
     position: relative;
     width: auto;
     height: auto;
     top: 0; }
-    /* line 295, ../scss/stanford_bean_types_featured.scss */
+    /* line 249, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .group-overlay-text .btn {
       font-size: 1.9rem; }
-    /* line 299, ../scss/stanford_bean_types_featured.scss */
+    /* line 253, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-headline {
       color: #000000;
       font-size: .9em; }
-    /* line 304, ../scss/stanford_bean_types_featured.scss */
+    /* line 258, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-description {
       color: #000000;
       font-size: .8em;
       margin: 0 calc(10% - 30px) 30px;
       padding: 0 1%; }
-    /* line 311, ../scss/stanford_bean_types_featured.scss */
+    /* line 265, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-superhead {
       margin-top: 40px; }
-      /* line 314, ../scss/stanford_bean_types_featured.scss */
+      /* line 268, ../scss/stanford_bean_types_featured.scss */
       .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-superhead a {
         color: #000000;
         margin-top: 20px; }
-    /* line 320, ../scss/stanford_bean_types_featured.scss */
+    /* line 274, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .group-overlay-text .group-headline-h2 {
       margin: 5% 20%; }
-  /* line 325, ../scss/stanford_bean_types_featured.scss */
+  /* line 279, ../scss/stanford_bean_types_featured.scss */
   .no-margin .bean-stanford-featured-block .featured-curtain .entity {
     background: #ffffff;
     height: auto; }
 
-/* line 332, ../scss/stanford_bean_types_featured.scss */
+/* line 286, ../scss/stanford_bean_types_featured.scss */
 .entity-paragraphs-item iframe[src*="youtube"], .entity-paragraphs-item iframe[src*="vimeo"] {
   height: 350px; }
