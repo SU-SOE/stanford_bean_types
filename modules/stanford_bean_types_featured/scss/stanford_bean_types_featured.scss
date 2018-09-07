@@ -194,7 +194,7 @@ div[class*="featured"]:not([class*="reveal"]) {
   .field-name-field-p-featured-video {
     float: left;
     width: 65%;
-    height: 350px;
+    height: 400px;
   }
 
 
@@ -202,7 +202,7 @@ div[class*="featured"]:not([class*="reveal"]) {
     display: block;
 
     img {
-      height: 350px;
+      height: 400px;
     }
   }
 
@@ -215,13 +215,10 @@ div[class*="featured"]:not([class*="reveal"]) {
     color: #000;
     display: block;
     float: right;
-    height: 350px;
+    height: auto;
     width: 35%;
     margin-left: 65%;
-
-    .field-name-field-p-featured-superhead {
-      margin-top: 12%;
-    }
+    margin-top: 6%;
 
     .group-headline-h2 a,
     .field-name-field-p-featured-superhead a {
@@ -250,7 +247,7 @@ div[class*="featured"]:not([class*="reveal"]) {
       height: auto;
 
       img {
-        height: 350px;
+        height: 400px;
       }
     }
 
@@ -306,5 +303,5 @@ div[class*="featured"]:not([class*="reveal"]) {
 }
 
 .entity-paragraphs-item iframe[src*="youtube"], .entity-paragraphs-item iframe[src*="vimeo"] {
-  height: 350px;
+  height: 400px;
 }
