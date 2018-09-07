@@ -220,9 +220,13 @@ div[class*="featured"]:not([class*="reveal"]) {
     margin-left: 65%;
     margin-top: 6%;
 
-    .group-headline-h2 a,
-    .field-name-field-p-featured-superhead a {
+    .group-headline-h2,
+    .field-name-field-p-featured-superhead {
       color: #000;
+      
+      a {
+        color: #000;
+      }
     }
   }
 }
