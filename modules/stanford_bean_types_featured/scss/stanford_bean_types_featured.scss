@@ -88,7 +88,7 @@ div[class*="featured"]:not([class*="reveal"]) {
     padding: 0;
     position: absolute;
     text-align: center;
-    top: 5%;
+    top: 10%;
     width: 100%;
     z-index: 2;
 
@@ -107,17 +107,14 @@ div[class*="featured"]:not([class*="reveal"]) {
       a {
         background-color: transparent;
         color: #fff;
+        -webkit-text-decoration-color: #00ECE9;
+        text-decoration-color: #00ECE9;
         padding: 0;
         box-shadow: none;
         margin: 0;
 
         &:after {
           content: '';
-        }
-
-        &:hover {
-          -webkit-text-decoration-color: #00ECE9;
-          text-decoration-color: #00ECE9;
         }
       }
     }
@@ -129,11 +126,8 @@ div[class*="featured"]:not([class*="reveal"]) {
       a {
         color: #fff;
         text-decoration: underline;
-
-        &:hover {
-          -webkit-text-decoration-color: #ffbd54;
-          text-decoration-color: #ffbd54;
-        }
+        -webkit-text-decoration-color: #ffbd54;
+        text-decoration-color: #ffbd54;
       }
     }
 
@@ -142,8 +136,8 @@ div[class*="featured"]:not([class*="reveal"]) {
       line-height: 1.2em;
       margin: 0 0 40px;
 
-      .field-items {
-        margin: 0 10%;
+      .field-item {
+        margin: 0 5%;
       }
 
       @media (max-width: 1200px) and (min-width: 979px) {
@@ -155,11 +149,8 @@ div[class*="featured"]:not([class*="reveal"]) {
       a {
         color: #fff;
         text-decoration: underline;
-
-        &:hover {
-          -webkit-text-decoration-color: #00ECE9;
-          text-decoration-color: #00ECE9;
-        }
+        -webkit-text-decoration-color: #00ECE9;
+        text-decoration-color: #00ECE9;
       }
     }
 
@@ -171,7 +162,7 @@ div[class*="featured"]:not([class*="reveal"]) {
       font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 1.2em;
       font-weight: 400;
-      padding: .8em calc(15% - 40px) .8em;
+      padding: .8em calc(10% - 40px) .8em;
       text-align: center;
       text-decoration: none;
 
@@ -218,6 +209,7 @@ div[class*="featured"]:not([class*="reveal"]) {
     height: auto;
     width: 35%;
     margin-left: 65%;
+    top: 4%;
     margin-top: 6%;
 
     .group-headline-h2,
@@ -233,7 +225,21 @@ div[class*="featured"]:not([class*="reveal"]) {
 
 .fullwidth .paragraphs-item-p-featured {
   div.group-overlay-text {
-    top: 30%;
+    margin-top: 6%;
+    top: 4%;
+
+    a.btn,
+    a.btn-orange,
+    a.btn-pink,
+    a.btn-turquoise {
+      padding: .8em calc(6% - 40px) .8em;
+    }
+
+    .field-name-field-p-featured-description {
+      .field-item {
+        margin: 0 20%;
+      }
+    }
   }
 }
 
