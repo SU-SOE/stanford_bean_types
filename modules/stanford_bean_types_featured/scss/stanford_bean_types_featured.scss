@@ -188,23 +188,41 @@ div[class*="featured"]:not([class*="reveal"]) {
 }
 
 .paragraphs-item-p-featured.has-video {
+  background: #fff;
+
   .field-name-field-p-featured-image,
   .field-name-field-p-featured-video {
     float: left;
     width: 65%;
+    height: 350px;
   }
 
 
   .field-name-field-p-featured-image {
-    display: inline-table;
+    display: block;
+
+    img {
+      height: 350px;
+    }
   }
 
   .group-overlay-text {
     background: #fff;
     color: #000;
-    display: inline-table;
+    display: block;
     float: right;
+    height: 350px;
     width: 35%;
+    margin-left: 65%;
+
+    .field-name-field-p-featured-superhead {
+      margin-top: 12%;
+    }
+
+    .group-headline-h2 a,
+    .field-name-field-p-featured-superhead a {
+      color: #000;
+    }
   }
 }
 
