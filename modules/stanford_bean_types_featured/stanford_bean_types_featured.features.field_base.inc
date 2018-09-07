@@ -25,13 +25,13 @@ function stanford_bean_types_featured_field_default_field_bases() {
     'type' => 'paragraphs',
   );
 
-  // Exported field_base: 'field_featured_block_style'.
-  $field_bases['field_featured_block_style'] = array(
+  // Exported field_base: 'field_p_featured_button_color'.
+  $field_bases['field_p_featured_button_color'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_featured_block_style',
+    'field_name' => 'field_p_featured_button_color',
     'indexes' => array(
       'value' => array(
         0 => 'value',
@@ -41,9 +41,34 @@ function stanford_bean_types_featured_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        'static' => 'Standard Header (No movement)',
-        'curtain' => 'Curtain Reveal',
-        'scroll' => 'Scroll Button',
+        'orange' => 'Orange',
+        'pink' => 'Pink',
+        'turquoise' => 'Turquoise',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
+  // Exported field_base: 'field_p_featured_cta_button'.
+  $field_bases['field_p_featured_cta_button'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_p_featured_cta_button',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'yes' => 'Yes',
+        'no' => 'No',
       ),
       'allowed_values_function' => '',
     ),
