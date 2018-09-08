@@ -39,11 +39,17 @@ function stanford_bean_types_featured_form_bean_form_alter(&$form, &$form_state,
 function stanford_bean_types_featured_preprocess_block(&$vars) {
   /* Set shortcut variables. */
   $block_delta = $vars['block']->delta;
-  $block_type = $vars['elements']['bean'][$block_delta]['#bundle'];
+  $block_type = '';
+
+  if(isset($vars['elements']['bean'][$block_delta]['#bundle'])) {
+    $block_type = $vars['elements']['bean'][$block_delta]['#bundle'];
+  }
+
   $classes = &$vars['classes_array'];
   /* Add classes to the featured blocks. */
   switch ($block_type) {
     case 'stanford_featured_block':
+      $classes[] = 'well no-padding';
       $classes[] = 'featured-block';
       $featured_id = array_shift(array_values($vars['elements']['bean'][$block_delta]['field_featured_block_featured'][0]['entity']['paragraphs_item']));
       if(empty($featured_id['#entity']->field_p_featured_image)) {
