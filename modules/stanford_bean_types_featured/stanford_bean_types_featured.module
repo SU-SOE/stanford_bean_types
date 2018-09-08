@@ -51,7 +51,8 @@ function stanford_bean_types_featured_preprocess_block(&$vars) {
     case 'stanford_featured_block':
       $classes[] = 'well no-padding';
       $classes[] = 'featured-block';
-      $featured_id = array_shift(array_values($vars['elements']['bean'][$block_delta]['field_featured_block_featured'][0]['entity']['paragraphs_item']));
+      $paragraphs_item = array_values($vars['elements']['bean'][$block_delta]['field_featured_block_featured'][0]['entity']['paragraphs_item']);
+      $featured_id = array_shift($paragraphs_item);
       if(empty($featured_id['#entity']->field_p_featured_image)) {
         if(!empty($featured_id['#entity']->field_p_featured_video)) {
           $classes[] = 'featured-video-no-image';
