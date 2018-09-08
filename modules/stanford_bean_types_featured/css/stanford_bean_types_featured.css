@@ -18,7 +18,7 @@ div[class*="featured"]:not([class*="reveal"]) .entity-paragraphs-item {
 /* line 25, ../scss/stanford_bean_types_featured.scss */
 .front .block-bean.no-padding.well.featured-block {
   display: inline-block;
-  margin-bottom: 100px;
+  margin-top: 6%;
   width: 100%; }
 
 /* line 31, ../scss/stanford_bean_types_featured.scss */
