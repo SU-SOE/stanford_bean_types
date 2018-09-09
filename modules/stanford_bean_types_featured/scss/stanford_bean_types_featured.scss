@@ -34,6 +34,12 @@ div[class*="featured"]:not([class*="reveal"]) {
   &.bottom-margin {
     margin-bottom: 100px;
   }
+
+  &.span9 {
+    width: 74.5%;
+    margin-left: 12.75%;
+    margin-right: 12.75%;
+  }
 }
 
 .paragraphs-item-p-featured.btn-orange .btn {
