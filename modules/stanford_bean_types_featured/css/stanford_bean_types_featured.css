@@ -226,73 +226,74 @@ div[class*="featured"]:not([class*="reveal"]) .entity-paragraphs-item {
 /* line 264, ../scss/stanford_bean_types_featured.scss */
 .fullwidth .paragraphs-item-p-featured div.group-overlay-text {
   margin-top: 6%;
-  top: 4%; }
-  /* line 268, ../scss/stanford_bean_types_featured.scss */
+  top: 4%;
+  max-height: 100%; }
+  /* line 269, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn,
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-orange,
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-pink,
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-turquoise {
     padding: 0.8em calc(6% - 40px) 0.8em; }
-  /* line 276, ../scss/stanford_bean_types_featured.scss */
+  /* line 277, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text .field-name-field-p-featured-description .field-item {
     margin: 0 20%; }
 
-/* line 284, ../scss/stanford_bean_types_featured.scss */
+/* line 285, ../scss/stanford_bean_types_featured.scss */
 .no-margin .bean-stanford-featured-block {
   margin-bottom: 5%;
   margin-left: 15%;
   margin-right: 15%;
   height: auto; }
-  /* line 290, ../scss/stanford_bean_types_featured.scss */
+  /* line 291, ../scss/stanford_bean_types_featured.scss */
   .no-margin .bean-stanford-featured-block .field-name-field-p-featured-image {
     float: left;
     position: relative;
     width: 65%;
     height: auto; }
-    /* line 296, ../scss/stanford_bean_types_featured.scss */
+    /* line 297, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .field-name-field-p-featured-image img {
       height: 400px; }
-  /* line 301, ../scss/stanford_bean_types_featured.scss */
+  /* line 302, ../scss/stanford_bean_types_featured.scss */
   .no-margin .bean-stanford-featured-block .field-name-field-p-featured-video {
     float: left;
     position: absolute;
     width: 65%;
     height: auto; }
-  /* line 308, ../scss/stanford_bean_types_featured.scss */
+  /* line 309, ../scss/stanford_bean_types_featured.scss */
   .no-margin .bean-stanford-featured-block .group-overlay-text {
     float: right;
     position: relative;
     width: auto;
     height: auto;
     top: 0; }
-    /* line 315, ../scss/stanford_bean_types_featured.scss */
+    /* line 316, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .group-overlay-text .btn {
       font-size: 1.9rem; }
-    /* line 319, ../scss/stanford_bean_types_featured.scss */
+    /* line 320, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-headline {
       color: #000000;
       font-size: .9em; }
-    /* line 324, ../scss/stanford_bean_types_featured.scss */
+    /* line 325, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-description {
       color: #000000;
       font-size: .8em;
       margin: 0 calc(10% - 30px) 30px;
       padding: 0 1%; }
-    /* line 331, ../scss/stanford_bean_types_featured.scss */
+    /* line 332, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-superhead {
       margin-top: 40px; }
-      /* line 334, ../scss/stanford_bean_types_featured.scss */
+      /* line 335, ../scss/stanford_bean_types_featured.scss */
       .no-margin .bean-stanford-featured-block .group-overlay-text .field-name-field-p-featured-superhead a {
         color: #000000;
         margin-top: 20px; }
-    /* line 340, ../scss/stanford_bean_types_featured.scss */
+    /* line 341, ../scss/stanford_bean_types_featured.scss */
     .no-margin .bean-stanford-featured-block .group-overlay-text .group-headline-h2 {
       margin: 5% 20%; }
-  /* line 345, ../scss/stanford_bean_types_featured.scss */
+  /* line 346, ../scss/stanford_bean_types_featured.scss */
   .no-margin .bean-stanford-featured-block .featured-curtain .entity {
     background: #ffffff;
     height: auto; }
 
-/* line 352, ../scss/stanford_bean_types_featured.scss */
+/* line 353, ../scss/stanford_bean_types_featured.scss */
 .entity-paragraphs-item iframe[src*="youtube"], .entity-paragraphs-item iframe[src*="vimeo"] {
   height: 400px; }
