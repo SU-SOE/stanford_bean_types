@@ -236,7 +236,7 @@ div[class*="featured"]:not([class*="reveal"]) .entity-paragraphs-item {
     padding: 0.8em calc(6% - 40px) 0.8em; }
   /* line 277, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text .field-name-field-p-featured-description .field-item {
-    margin: 0 20%; }
+    margin: 0 10%; }
 
 /* line 285, ../scss/stanford_bean_types_featured.scss */
 .no-margin .bean-stanford-featured-block {
