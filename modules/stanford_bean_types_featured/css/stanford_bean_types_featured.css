@@ -144,8 +144,8 @@ div[class*="featured"]:not([class*="reveal"]) .entity-paragraphs-item {
     .paragraphs-item-p-featured div.group-overlay-text .field-name-field-p-featured-more-link a {
       color: #fff;
       text-decoration: underline;
-      -webkit-text-decoration-color: #00ECE9;
-      text-decoration-color: #00ECE9; }
+      -webkit-text-decoration-color: #FFBD54;
+      text-decoration-color: #FFBD54; }
     /* line 177, ../scss/stanford_bean_types_featured.scss */
     .paragraphs-item-p-featured div.group-overlay-text a.btn-orange,
     .paragraphs-item-p-featured div.group-overlay-text a.btn-pink,
