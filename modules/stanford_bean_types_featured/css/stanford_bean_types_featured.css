@@ -67,7 +67,7 @@ div[class*="featured"]:not([class*="reveal"]) .entity-paragraphs-item {
     z-index: 3; }
   /* line 82, ../scss/stanford_bean_types_featured.scss */
   .paragraphs-item-p-featured .field-name-field-p-featured-image {
-    background: #011429;
+    background: #001933;
     position: relative;
     z-index: 2; }
     /* line 87, ../scss/stanford_bean_types_featured.scss */
