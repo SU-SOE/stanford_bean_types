@@ -228,6 +228,13 @@ div[class*="featured"]:not([class*="reveal"]) {
   }
 }
 
+.paragraphs-item-p-featured.has-image.has-video {
+  .group-overlay-text {
+    background: transparent;
+    position: relative;
+  }
+}
+
 .paragraphs-item-p-featured.has-video {
   background: #fff;
 
