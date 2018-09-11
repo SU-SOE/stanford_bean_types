@@ -85,7 +85,7 @@ div[class*="featured"]:not([class*="reveal"]) {
     z-index: 2;
 
     img {
-      opacity: .4;
+      opacity: .6;
       width: 100%;
       height: auto;
     }
@@ -123,7 +123,7 @@ div[class*="featured"]:not([class*="reveal"]) {
     .group-headline-h2 {
       color: #ffffff;
       margin: 20px 0 40px;
-
+      font-size: 32px;
       a {
         background-color: transparent;
         color: #fff;
@@ -140,8 +140,8 @@ div[class*="featured"]:not([class*="reveal"]) {
     }
 
     .field-name-field-p-featured-superhead {
-      font-size: 1.2em;
-      font-weight: 600;
+      font-size: 18px;
+      font-weight: 700;
 
       a {
         color: #fff;
@@ -152,7 +152,7 @@ div[class*="featured"]:not([class*="reveal"]) {
     }
 
     .field-name-field-p-featured-description {
-      font-size: 1.2em;
+      font-size: 18px;
       line-height: 1.2em;
       margin: 0 0 40px;
 
@@ -244,10 +244,11 @@ div[class*="featured"]:not([class*="reveal"]) {
     display: block;
     float: right;
     height: auto;
-    width: 35%;
+    width: 31%;
     margin-left: 65%;
     top: 4%;
     margin-top: 6%;
+    padding: 2%;
 
     .group-headline-h2,
     .field-name-field-p-featured-superhead {
