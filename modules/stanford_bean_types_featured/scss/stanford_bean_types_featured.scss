@@ -223,6 +223,7 @@ div[class*="featured"]:not([class*="reveal"]) {
 
 .paragraphs-item-p-featured.has-image {
   .group-overlay-text {
+    background: transparent;
     position: absolute;
   }
 }
