@@ -112,6 +112,12 @@ div[class*="featured"]:not([class*="reveal"]) {
     width: 100%;
     z-index: 2;
 
+
+    @media (max-width: 979px) and (min-width: 500px) {
+      position: relative;
+      width: 100%;
+    }
+
     > div,
     > h2 {
       display: table-cell;
@@ -215,6 +221,12 @@ div[class*="featured"]:not([class*="reveal"]) {
   }
 }
 
+.paragraphs-item-p-featured.has-image {
+  .group-overlay-text {
+    position: absolute;
+  }
+}
+
 .paragraphs-item-p-featured.has-video {
   background: #fff;
 
@@ -223,6 +235,10 @@ div[class*="featured"]:not([class*="reveal"]) {
     float: left;
     width: 65%;
     height: 400px;
+
+    @media (max-width: 979px) and (min-width: 500px) {
+      width: 100%;
+    }
   }
 
 
@@ -249,6 +265,12 @@ div[class*="featured"]:not([class*="reveal"]) {
     top: 4%;
     margin-top: 6%;
     padding: 2%;
+
+    @media (max-width: 979px) and (min-width: 500px) {
+      float: left;
+      width: 94%;
+      margin-left: 0;
+    }
 
     .group-headline-h2,
     .field-name-field-p-featured-superhead {
