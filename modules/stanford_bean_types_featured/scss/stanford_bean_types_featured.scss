@@ -239,7 +239,20 @@ div[class*="featured"]:not([class*="reveal"]) {
     }
   }
 }
+.span6 {
+  .paragraphs-item-p-featured.has-image.has-video {
+    .field-name-field-p-featured-image,
+    .field-name-field-p-featured-video {
+      width: 100%;
+    }
 
+    .group-overlay-text {
+      background: transparent;
+      position: relative;
+      width: 100%;
+    }
+  }
+}
 .paragraphs-item-p-featured.has-video {
   background: #fff;
 
