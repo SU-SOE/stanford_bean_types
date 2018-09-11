@@ -231,7 +231,12 @@ div[class*="featured"]:not([class*="reveal"]) {
 .paragraphs-item-p-featured.has-image.has-video {
   .group-overlay-text {
     background: transparent;
-    position: relative;
+    position: absolute;
+
+    @media (max-width: 979px) and (min-width: 500px) {
+      position: relative;
+      width: 100%;
+    }
   }
 }
 
