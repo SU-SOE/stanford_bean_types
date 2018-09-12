@@ -288,6 +288,10 @@ div[class*="featured"] {
       margin-top: 1%;
       position: relative;
       width: auto;
+
+      .field-name-field-p-featured-superhead {
+        padding-top: 0;
+      }
     }
 
     .group-headline-h2,
