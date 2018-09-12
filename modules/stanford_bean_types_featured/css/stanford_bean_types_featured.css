@@ -134,7 +134,7 @@ div[class*="featured"]:not([class*="reveal"]) .entity-paragraphs-item {
     /* line 154, ../scss/stanford_bean_types_featured.scss */
     .paragraphs-item-p-featured div.group-overlay-text .group-headline-h2 {
       color: #ffffff;
-      margin: 20px 0;
+      margin: 10px 0 0;
       font-size: 32px; }
       @media (max-width: 580px) {
         /* line 154, ../scss/stanford_bean_types_featured.scss */
