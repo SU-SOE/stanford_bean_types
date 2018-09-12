@@ -67,15 +67,6 @@ div[class*="featured"] {
   }
 }
 
-.paragraphs-item-p-featured.btn-orange .btn {
-  background: #ffbd54;
-  color: #fff;
-
-  &:hover {
-    background: #333333;
-  }
-}
-
 .paragraphs-item-p-featured {
   margin-bottom: 0;
 
@@ -172,7 +163,11 @@ div[class*="featured"] {
     .field-name-field-p-featured-description {
       font-size: 18px;
       line-height: 1.2em;
-      margin: 30px 0 40px;
+      margin: 30px 0 20px;
+
+      @media (max-width: 767px) {
+        margin: 20px 0 20px;
+      }
 
       .field-item {
         margin: 0 10%;
@@ -364,11 +359,11 @@ div[class*="featured"] {
     display: block;
     float: right;
     height: auto;
-    width: 31%;
+    width: 27%;
     margin-left: 61%;
     text-align: left;
     top: 4%;
-    padding: 4%;
+    padding: 6% 6% 0;
 
     @media (max-width: 979px) {
       float: left;
@@ -420,9 +415,37 @@ div[class*="featured"] {
     }
   }
 
+  &.has-image {
+    .group-headline-h2 {
+      font-size: 52px;
+      margin-top: 10px;
+
+      @media (max-width: 979px) {
+        font-size: 32px;
+      }
+    }
+
+    .field-name-field-p-featured-description {
+      font-size: 22px;
+    }
+  }
+
   &.has-video {
     div.group-overlay-text {
       margin-top: 0;
+
+      .group-headline-h2 {
+        font-size: 52px;
+        margin-top: 10px;
+
+        @media (max-width: 979px) {
+          font-size: 32px;
+        }
+      }
+
+      .field-name-field-p-featured-description {
+        font-size: 22px;
+      }
 
       .field-name-field-p-featured-description .field-item {
         margin: 0;
