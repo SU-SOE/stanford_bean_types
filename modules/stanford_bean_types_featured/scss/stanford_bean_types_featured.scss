@@ -1,4 +1,4 @@
-div[class*="featured"]:not([class*="reveal"]) {
+div[class*="featured"] {
 
   img {
     object-fit: cover;
@@ -69,24 +69,6 @@ div[class*="featured"]:not([class*="reveal"]) {
 
 .paragraphs-item-p-featured.btn-orange .btn {
   background: #ffbd54;
-  color: #fff;
-
-  &:hover {
-    background: #333333;
-  }
-}
-
-.paragraphs-item-p-featured.btn-pink .btn {
-  background: #ff525c;
-  color: #fff;
-
-  &:hover {
-    background: #333333;
-  }
-}
-
-.paragraphs-item-p-featured.btn-turquoise .btn {
-  background: #00ECE9;
   color: #fff;
 
   &:hover {
