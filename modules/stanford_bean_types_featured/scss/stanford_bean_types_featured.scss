@@ -268,24 +268,12 @@ div[class*="featured"] {
   .group-overlay-text {
     background: transparent;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     @media (max-width: 979px) {
-      position: relative;
-
-      .group-headline-h2,
-      .field-name-field-p-featured-superhead,
-      .field-name-field-p-featured-description,
-      .field-name-field-p-featured-more-link {
-        color: #000;
-
-        a {
-          color: #000;
-
-          &.btn {
-            color: #fff;
-          }
-        }
-      }
+      position: absolute;
 
       .field-name-field-p-featured-superhead {
         padding-top: 20px;
@@ -298,6 +286,8 @@ div[class*="featured"] {
   .group-overlay-text {
     background: transparent;
     position: absolute;
+    left: 0;
+    transform: none;
 
     @media (max-width: 979px) {
       margin-top: 1%;
@@ -306,6 +296,21 @@ div[class*="featured"] {
 
       .field-name-field-p-featured-superhead {
         padding-top: 40px;
+      }
+    }
+
+    .group-headline-h2,
+    .field-name-field-p-featured-superhead,
+    .field-name-field-p-featured-description,
+    .field-name-field-p-featured-more-link {
+      color: #000;
+
+      a {
+        color: #000;
+
+        &.btn {
+          color: #fff;
+        }
       }
     }
   }
@@ -391,8 +396,6 @@ div[class*="featured"] {
 
 .fullwidth .paragraphs-item-p-featured {
   div.group-overlay-text {
-    margin-top: 6%;
-    top: 4%;
     max-height: 100%;
 
     @media (max-width: 979px) {
@@ -427,8 +430,6 @@ div[class*="featured"] {
     }
   }
 }
-
-
 
 .entity-paragraphs-item iframe[src*="youtube"], .entity-paragraphs-item iframe[src*="vimeo"] {
   height: 400px;
