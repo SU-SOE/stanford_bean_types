@@ -22,6 +22,11 @@ div[class*="featured"]:not([class*="reveal"]) {
 
 }
 
+.fullwidth .featured-block {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .featured-block {
   margin-left: 10%;
   margin-right: 10%;
