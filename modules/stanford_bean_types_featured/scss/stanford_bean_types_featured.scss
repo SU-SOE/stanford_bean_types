@@ -405,6 +405,10 @@ div[class*="featured"] {
     a.btn-pink,
     a.btn-turquoise {
       padding: .8em calc(6% - 40px) .8em;
+
+      @media (max-width: 979px) {
+        padding: 0.8em 1.2em 0.9em;
+      }
     }
 
     .field-name-field-p-featured-description {
