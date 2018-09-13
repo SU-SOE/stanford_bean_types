@@ -486,6 +486,14 @@ div[class*="featured"] {
       }
     }
   }
+
+  &.has-image.has-video {
+    .group-headline-h2 {
+      font-size: 32px !important;
+      margin: 0;
+      width: auto;
+    }
+  }
 }
 
 .entity-paragraphs-item iframe[src*="youtube"], .entity-paragraphs-item iframe[src*="vimeo"] {
