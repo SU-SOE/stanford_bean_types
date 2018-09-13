@@ -1,10 +1,10 @@
 div[class*="featured"] {
 
   img {
+    height: auto;
     object-fit: cover;
     object-position: center center;
     width: 100%;
-    height: auto;
   }
 
   a {
@@ -71,9 +71,9 @@ div[class*="featured"] {
   margin-bottom: 0;
 
   a.play-video {
+    color: #ffffff;
     display: block;
     font-size: 0;
-    color: #ffffff;
     z-index: 3;
   }
 
@@ -83,16 +83,16 @@ div[class*="featured"] {
     z-index: 2;
 
     img {
+      height: auto;
       opacity: .3;
       width: 100%;
-      height: auto;
     }
   }
 
   .field-name-field-p-featured-video {
+    height: auto;
     position: absolute;
     width: 100%;
-    height: auto;
     top: -20px;
     z-index: 1;
   }
@@ -110,7 +110,6 @@ div[class*="featured"] {
     width: 100%;
     z-index: 2;
 
-
     @media (max-width: 979px) {
       position: relative;
       width: 100%;
@@ -126,9 +125,9 @@ div[class*="featured"] {
 
     .group-headline-h2 {
       color: #ffffff;
+      font-size: 32px;
       line-height: 1.1em;
       margin: 10px 0 0;
-      font-size: 32px;
 
       @media (max-width: 580px) {
         font-size: 24px;
@@ -136,12 +135,12 @@ div[class*="featured"] {
 
       a {
         background-color: transparent;
+        box-shadow: none;
         color: #fff;
+        margin: 0;
+        padding: 0;
         -webkit-text-decoration-color: #00ECE9;
         text-decoration-color: #00ECE9;
-        padding: 0;
-        box-shadow: none;
-        margin: 0;
 
         &:after {
           content: '';
@@ -205,11 +204,11 @@ div[class*="featured"] {
       border-radius: 0;
       color: #000;
       display: inline-block;
+      font-size: 1.9rem;
       font-weight: 400;
-      margin: 0 0 26px;
       line-height: 1.2em;
       letter-spacing: 0;
-      font-size: 1.9rem;
+      margin: 0 0 26px;
       padding: 0.8em 1.2em 0.9em;
       text-align: center;
       text-decoration: none;
@@ -226,11 +225,11 @@ div[class*="featured"] {
       box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
       border-radius: 0;
       color: #ffffff;
+      font-size: 1.9rem;
       font-weight: 400;
-      margin: 0 0 26px;
       line-height: 1.2em;
       letter-spacing: 0;
-      font-size: 1.9rem;
+      margin: 0 0 26px;
       padding: 0.8em 1.2em 0.9em;
       text-align: center;
       text-decoration: none;
@@ -305,8 +304,8 @@ div[class*="featured"] {
 .paragraphs-item-p-featured.has-image.has-video {
   .group-overlay-text {
     background: transparent;
-    position: absolute;
     left: 0;
+    position: absolute;
     transform: none;
 
     @media (max-width: 979px) {
@@ -357,8 +356,8 @@ div[class*="featured"] {
   .field-name-field-p-featured-image,
   .field-name-field-p-featured-video {
     float: left;
-    width: 61%;
     height: 400px;
+    width: 61%;
 
     @media (max-width: 979px) {
       width: 100%;
@@ -384,18 +383,18 @@ div[class*="featured"] {
     display: block;
     float: right;
     height: auto;
-    width: 27%;
     margin-left: 61%;
+    padding: 4% 6% 0;
     text-align: left;
     top: 4%;
-    padding: 4% 6% 0;
+    width: 27%;
 
     @media (max-width: 979px) {
       float: left;
       margin-left: 0;
+      padding: 6%;
       text-align: center;
       width: 88%;
-      padding: 6%;
     }
 
     .group-headline-h2,
