@@ -276,8 +276,9 @@ div[class*="featured"] {
     transform: translate(-50%, -50%);
 
     @media (max-width: 979px) {
+      left: initial;
       position: relative;
-      top: 130px;
+      transform: none;
 
       .field-name-field-p-featured-superhead {
         padding-top: 20px;
