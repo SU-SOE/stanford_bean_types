@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * stanford_bean_types_featured.bean.inc
