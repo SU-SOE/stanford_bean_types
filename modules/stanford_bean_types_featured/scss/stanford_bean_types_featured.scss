@@ -442,7 +442,8 @@ div[class*="featured"] {
   &.has-image {
     .group-headline-h2 {
       font-size: 52px;
-      margin: 10px 15%;
+      margin: 10px 10%;
+      width: 80%;
 
       @media (max-width: 979px) {
         font-size: 32px;
