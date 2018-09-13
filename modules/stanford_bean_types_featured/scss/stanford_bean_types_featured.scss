@@ -406,9 +406,8 @@ div[class*="featured"] {
     max-height: 100%;
 
     @media (max-width: 979px) {
-      margin-top: 1%;
-      margin-bottom: 3%;
       width: auto;
+      top: 140px;
     }
 
     a.btn,

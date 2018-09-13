@@ -350,57 +350,56 @@ div[class*="featured"] .entity-paragraphs-item {
   @media (max-width: 979px) {
     /* line 405, ../scss/stanford_bean_types_featured.scss */
     .fullwidth .paragraphs-item-p-featured div.group-overlay-text {
-      margin-top: 1%;
-      margin-bottom: 3%;
-      width: auto; } }
-  /* line 414, ../scss/stanford_bean_types_featured.scss */
+      width: auto;
+      top: 140px; } }
+  /* line 413, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn,
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-orange,
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-pink,
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-turquoise {
     padding: 0.8em calc(6% - 40px) 0.8em; }
     @media (max-width: 979px) {
-      /* line 414, ../scss/stanford_bean_types_featured.scss */
+      /* line 413, ../scss/stanford_bean_types_featured.scss */
       .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn,
       .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-orange,
       .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-pink,
       .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-turquoise {
         padding: 0.8em 1.2em 0.9em; } }
-  /* line 425, ../scss/stanford_bean_types_featured.scss */
+  /* line 424, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text .field-name-field-p-featured-description {
     font-size: 20px; }
-    /* line 428, ../scss/stanford_bean_types_featured.scss */
+    /* line 427, ../scss/stanford_bean_types_featured.scss */
     .fullwidth .paragraphs-item-p-featured div.group-overlay-text .field-name-field-p-featured-description .field-item {
       margin: 0 10%; }
-/* line 435, ../scss/stanford_bean_types_featured.scss */
+/* line 434, ../scss/stanford_bean_types_featured.scss */
 .fullwidth .paragraphs-item-p-featured.has-image .group-headline-h2 {
   font-size: 52px;
   margin-top: 10px; }
   @media (max-width: 979px) {
-    /* line 435, ../scss/stanford_bean_types_featured.scss */
+    /* line 434, ../scss/stanford_bean_types_featured.scss */
     .fullwidth .paragraphs-item-p-featured.has-image .group-headline-h2 {
       font-size: 32px; } }
-/* line 444, ../scss/stanford_bean_types_featured.scss */
+/* line 443, ../scss/stanford_bean_types_featured.scss */
 .fullwidth .paragraphs-item-p-featured.has-image .field-name-field-p-featured-description {
   font-size: 22px; }
-/* line 450, ../scss/stanford_bean_types_featured.scss */
+/* line 449, ../scss/stanford_bean_types_featured.scss */
 .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text {
   margin-top: 0; }
-  /* line 453, ../scss/stanford_bean_types_featured.scss */
+  /* line 452, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .group-headline-h2 {
     font-size: 52px;
     margin-top: 10px; }
     @media (max-width: 979px) {
-      /* line 453, ../scss/stanford_bean_types_featured.scss */
+      /* line 452, ../scss/stanford_bean_types_featured.scss */
       .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .group-headline-h2 {
         font-size: 32px; } }
-  /* line 462, ../scss/stanford_bean_types_featured.scss */
+  /* line 461, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .field-name-field-p-featured-description {
     font-size: 22px; }
-  /* line 466, ../scss/stanford_bean_types_featured.scss */
+  /* line 465, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .field-name-field-p-featured-description .field-item {
     margin: 0; }
 
-/* line 473, ../scss/stanford_bean_types_featured.scss */
+/* line 472, ../scss/stanford_bean_types_featured.scss */
 .entity-paragraphs-item iframe[src*="youtube"], .entity-paragraphs-item iframe[src*="vimeo"] {
   height: 400px; }
