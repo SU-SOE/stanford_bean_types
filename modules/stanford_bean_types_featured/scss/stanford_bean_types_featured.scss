@@ -145,6 +145,10 @@ div[class*="featured"] {
         &:after {
           content: '';
         }
+
+        &:hover {
+          text-decoration-color: white;
+        }
       }
     }
 
@@ -157,13 +161,17 @@ div[class*="featured"] {
         text-decoration: underline;
         -webkit-text-decoration-color: #ffbd54;
         text-decoration-color: #ffbd54;
+
+        &:hover {
+          text-decoration-color: white;
+        }
       }
     }
 
     .field-name-field-p-featured-description {
       font-size: 18px;
       line-height: 1.2em;
-      margin: 30px 0 20px;
+      margin: 30px 0 0;
 
       @media (max-width: 767px) {
         margin: 20px 0 20px;
@@ -414,6 +422,7 @@ div[class*="featured"] {
     a.btn-orange,
     a.btn-pink,
     a.btn-turquoise {
+      margin-top: 42px;
       padding: .8em calc(6% - 40px) .8em;
 
       @media (max-width: 979px) {
@@ -422,10 +431,10 @@ div[class*="featured"] {
     }
 
     .field-name-field-p-featured-description {
-      font-size: 20px;
+      font-size: 22px;
 
       .field-item {
-        margin: 0 10%;
+        margin: 0 22%;
       }
     }
   }
@@ -433,7 +442,7 @@ div[class*="featured"] {
   &.has-image {
     .group-headline-h2 {
       font-size: 52px;
-      margin-top: 10px;
+      margin: 10px 15%;
 
       @media (max-width: 979px) {
         font-size: 32px;
