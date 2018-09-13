@@ -467,10 +467,12 @@ div[class*="featured"] {
   &.has-video {
     div.group-overlay-text {
       margin-top: 0;
+      padding: 3% 3% 0;
 
       .group-headline-h2 {
-        font-size: 52px;
-        margin-top: 10px;
+        font-size: 32px;
+        margin: 30px 0 0;
+        width: auto;
 
         @media (max-width: 979px) {
           font-size: 32px;
@@ -484,14 +486,6 @@ div[class*="featured"] {
       .field-name-field-p-featured-description .field-item {
         margin: 0;
       }
-    }
-  }
-
-  &.has-image.has-video {
-    .group-headline-h2 {
-      font-size: 32px !important;
-      margin: 0;
-      width: auto;
     }
   }
 }
