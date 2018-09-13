@@ -230,7 +230,7 @@ div[class*="featured"] .entity-paragraphs-item {
     /* line 263, ../scss/stanford_bean_types_featured.scss */
     .paragraphs-item-p-featured.has-image .group-overlay-text {
       position: relative;
-      top: 140px; }
+      top: 130px; }
       /* line 274, ../scss/stanford_bean_types_featured.scss */
       .paragraphs-item-p-featured.has-image .group-overlay-text .field-name-field-p-featured-superhead {
         padding-top: 20px; }
@@ -351,7 +351,7 @@ div[class*="featured"] .entity-paragraphs-item {
     /* line 405, ../scss/stanford_bean_types_featured.scss */
     .fullwidth .paragraphs-item-p-featured div.group-overlay-text {
       width: auto;
-      top: 140px; } }
+      top: 165px; } }
   /* line 413, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn,
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-orange,
