@@ -1,0 +1,65 @@
+<?php
+
+/**
+ * @file
+ * Code for the Stanford Bean Types Featured feature.
+ */
+
+include_once 'stanford_bean_types_featured.features.inc';
+
+/**
+ * Implements hook_entity_view().
+ */
+function stanford_bean_types_featured_entity_view($entity, $type, $view_mode, $langcode) {
+  if ($type == 'bean' && $entity->type == 'stanford_featured_block') {
+    $setting = array(
+      'stanford_bean_types_featured' => array(
+        'featuredMenu' => variable_get('stanford_bean_types_featured_menu', FALSE),
+      ),
+    );
+    drupal_add_js($setting, array('type' => 'setting'));
+    $path = drupal_get_path('module', 'stanford_bean_types_featured');
+    $entity->content['#attached']['css'][] = "$path/css/stanford_bean_types_featured.css";
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function stanford_bean_types_featured_form_bean_form_alter(&$form, &$form_state, $form_id) {
+  if ($form['#bundle'] == 'stanford_featured_block') {
+    $form['title']['#type'] = $form['view_mode']['#type'] = 'hidden';
+  }
+}
+
+/**
+ * Implements hook_preprocess_block().
+ */
+function stanford_bean_types_featured_preprocess_block(&$vars) {
+  /* Set shortcut variables. */
+  $block_delta = $vars['block']->delta;
+  $block_type = '';
+
+  if (isset($vars['elements']['bean'][$block_delta]['#bundle'])) {
+    $block_type = $vars['elements']['bean'][$block_delta]['#bundle'];
+  }
+
+  $classes = &$vars['classes_array'];
+  /* Add classes to the featured blocks. */
+  switch ($block_type) {
+    case 'stanford_featured_block':
+      $classes[] = 'well no-padding';
+      $classes[] = 'featured-block';
+      $paragraphs_item = array_values($vars['elements']['bean'][$block_delta]['field_featured_block_featured'][0]['entity']['paragraphs_item']);
+      $featured_id = array_shift($paragraphs_item);
+
+      // If we have a video without an overlay image.
+      if (empty($featured_id['#entity']->field_p_featured_image)) {
+        if (!empty($featured_id['#entity']->field_p_featured_video)) {
+          $classes[] = 'featured-video-no-image';
+        }
+      }
+
+      break;
+  }
+}
