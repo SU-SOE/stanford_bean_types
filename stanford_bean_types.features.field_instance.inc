@@ -2979,8 +2979,15 @@ function stanford_bean_types_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'settings' => array(),
-        'type' => 'hidden',
+        'module' => 'field_collection',
+        'settings' => array(
+          'add' => '',
+          'delete' => '',
+          'description' => 0,
+          'edit' => '',
+          'view_mode' => 'stanford_medium_square',
+        ),
+        'type' => 'field_collection_view',
         'weight' => 1,
       ),
       'stanford_soe_default' => array(

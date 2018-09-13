@@ -22,9 +22,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->data = array(
     'label' => 'first group',
     'weight' => '2',
-    'children' => array(
-      0 => 'group_s_circle_image_style',
-    ),
+    'children' => array(),
     'format_type' => 'hidden',
     'format_settings' => array(
       'label' => 'first group',
@@ -154,10 +152,11 @@ function stanford_bean_types_field_group_info() {
     'label' => 'postcard',
     'weight' => '0',
     'children' => array(
-      0 => 'group_s_superhead_style',
+      0 => 'group_s_circle_image_style',
       1 => 'group_s_credits_style',
       2 => 'group_s_more_link_style',
       3 => 'group_s_quote_style',
+      4 => 'group_s_superhead_style',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -247,17 +246,18 @@ function stanford_bean_types_field_group_info() {
   $field_group->entity_type = 'bean';
   $field_group->bundle = 'stanford_testimonial_block';
   $field_group->mode = 'default';
-  $field_group->parent_name = 'group_first_group';
+  $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'Circle Image',
-    'weight' => '9',
+    'weight' => '8',
     'children' => array(
       0 => 'field_s_image_info',
     ),
-    'format_type' => 'hidden',
+    'format_type' => 'div',
     'format_settings' => array(
       'label' => 'Circle Image',
       'instance_settings' => array(
+        'id' => '',
         'classes' => 'group-s-circle-image-style field-group-div circle-image',
         'description' => '',
         'show_label' => '0',
@@ -315,7 +315,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'Credits',
-    'weight' => '9',
+    'weight' => '10',
     'children' => array(
       0 => 'field_s_testimonial_credits',
     ),
@@ -440,7 +440,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'More Link',
-    'weight' => '10',
+    'weight' => '11',
     'children' => array(
       0 => 'field_testimonial_more_link',
     ),
@@ -1079,7 +1079,7 @@ function stanford_bean_types_field_group_info() {
   $field_group->parent_name = 'group_postcard';
   $field_group->data = array(
     'label' => 'Quote',
-    'weight' => '8',
+    'weight' => '9',
     'children' => array(
       0 => 'field_s_testimonial_quote',
     ),
