@@ -32,6 +32,7 @@ div[class*="featured"] {
   margin-right: 10%;
 
   @media (max-width: 767px) {
+
     margin-left: 0;
     margin-right: 0;
   }
@@ -111,6 +112,7 @@ div[class*="featured"] {
     z-index: 2;
 
     @media (max-width: 979px) {
+
       position: relative;
       width: 100%;
     }
@@ -130,6 +132,7 @@ div[class*="featured"] {
       margin: 10px 0 0;
 
       @media (max-width: 580px) {
+
         font-size: 24px;
       }
 
@@ -176,6 +179,7 @@ div[class*="featured"] {
       margin: 30px 0 0;
 
       @media (max-width: 767px) {
+
         margin: 20px 0;
       }
 
@@ -280,6 +284,7 @@ div[class*="featured"] {
     transform: translate(-50%, -50%);
 
     @media (max-width: 979px) {
+
       left: initial;
       position: relative;
       transform: none;
@@ -309,6 +314,7 @@ div[class*="featured"] {
     transform: none;
 
     @media (max-width: 979px) {
+
       margin-top: 1%;
       position: relative;
       width: auto;
@@ -360,6 +366,7 @@ div[class*="featured"] {
     width: 61%;
 
     @media (max-width: 979px) {
+
       width: 100%;
     }
   }
@@ -390,6 +397,7 @@ div[class*="featured"] {
     width: 27%;
 
     @media (max-width: 979px) {
+
       float: left;
       margin-left: 0;
       padding: 6%;
@@ -419,6 +427,7 @@ div[class*="featured"] {
     max-height: 100%;
 
     @media (max-width: 979px) {
+
       width: auto;
     }
 
@@ -430,6 +439,7 @@ div[class*="featured"] {
       padding: .8em calc(6% - 40px) .8em;
 
       @media (max-width: 979px) {
+
         padding: 0.8em 1.2em 0.9em;
       }
     }
@@ -438,6 +448,7 @@ div[class*="featured"] {
       font-size: 22px;
 
       @media (max-width: 979px) {
+
         font-size: 20px;
       }
 
@@ -445,10 +456,12 @@ div[class*="featured"] {
         margin: 0 22%;
 
         @media (max-width: 979px) {
+
           padding-bottom: 30px;
         }
 
         @media (max-width: 580px) {
+
           margin: 0 10%;
           padding-bottom: 30px;
         }
@@ -463,10 +476,12 @@ div[class*="featured"] {
       width: 80%;
 
       @media (max-width: 979px) {
+
         font-size: 32px;
       }
 
       @media (max-width: 580px) {
+
         font-size: 26px;
       }
     }
@@ -475,6 +490,7 @@ div[class*="featured"] {
       font-size: 22px;
 
       @media (max-width: 979px) {
+
         font-size: 20px;
       }
     }
@@ -495,6 +511,7 @@ div[class*="featured"] {
         width: auto;
 
         @media (max-width: 979px) {
+
           font-size: 32px;
         }
       }
@@ -503,6 +520,7 @@ div[class*="featured"] {
         font-size: 22px;
 
         @media (max-width: 979px) {
+
           font-size: 20px;
         }
       }
@@ -514,6 +532,7 @@ div[class*="featured"] {
   }
 }
 
-.entity-paragraphs-item iframe[src*="youtube"], .entity-paragraphs-item iframe[src*="vimeo"] {
+.entity-paragraphs-item iframe[src*="youtube"],
+.entity-paragraphs-item iframe[src*="vimeo"] {
   height: 400px;
 }
