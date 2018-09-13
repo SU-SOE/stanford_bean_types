@@ -147,6 +147,7 @@ div[class*="featured"] {
         }
 
         &:hover {
+          -webkit-text-decoration-color: white;
           text-decoration-color: white;
         }
       }
@@ -163,6 +164,7 @@ div[class*="featured"] {
         text-decoration-color: #ffbd54;
 
         &:hover {
+          -webkit-text-decoration-color: white;
           text-decoration-color: white;
         }
       }
