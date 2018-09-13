@@ -437,8 +437,21 @@ div[class*="featured"] {
     .field-name-field-p-featured-description {
       font-size: 22px;
 
+      @media (max-width: 979px) {
+        font-size: 20px;
+      }
+
       .field-item {
         margin: 0 22%;
+
+        @media (max-width: 979px) {
+          padding-bottom: 30px;
+        }
+
+        @media (max-width: 580px) {
+          margin: 0 10%;
+          padding-bottom: 30px;
+        }
       }
     }
   }
@@ -452,10 +465,18 @@ div[class*="featured"] {
       @media (max-width: 979px) {
         font-size: 32px;
       }
+
+      @media (max-width: 580px) {
+        font-size: 26px;
+      }
     }
 
     .field-name-field-p-featured-description {
       font-size: 22px;
+
+      @media (max-width: 979px) {
+        font-size: 20px;
+      }
     }
 
     .field-name-field-p-featured-more-link {
@@ -480,6 +501,10 @@ div[class*="featured"] {
 
       .field-name-field-p-featured-description {
         font-size: 22px;
+
+        @media (max-width: 979px) {
+          font-size: 20px;
+        }
       }
 
       .field-name-field-p-featured-description .field-item {
