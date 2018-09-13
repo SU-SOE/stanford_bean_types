@@ -139,16 +139,16 @@ div[class*="featured"] {
         color: #fff;
         margin: 0;
         padding: 0;
-        -webkit-text-decoration-color: #00ECE9;
-        text-decoration-color: #00ECE9;
+        -webkit-text-decoration-color: #00ece9;
+        text-decoration-color: #00ece9;
 
         &:after {
           content: '';
         }
 
         &:hover {
-          -webkit-text-decoration-color: white;
-          text-decoration-color: white;
+          -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
         }
       }
     }
@@ -164,8 +164,8 @@ div[class*="featured"] {
         text-decoration-color: #ffbd54;
 
         &:hover {
-          -webkit-text-decoration-color: white;
-          text-decoration-color: white;
+          -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
         }
       }
     }
