@@ -176,7 +176,7 @@ div[class*="featured"] {
       margin: 30px 0 0;
 
       @media (max-width: 767px) {
-        margin: 20px 0 20px;
+        margin: 20px 0;
       }
 
       .field-item {
@@ -188,19 +188,19 @@ div[class*="featured"] {
       margin-top: 30px;
 
       a {
-        color: #fff;
+        color: #ffffff;
         text-decoration: underline;
-        -webkit-text-decoration-color: #FFBD54;
-        text-decoration-color: #FFBD54;
+        -webkit-text-decoration-color: #ffbd54;
+        text-decoration-color: #ffbd54;
       }
     }
 
     a.btn-orange,
     a.btn-pink,
     a.btn-turquoise {
-      -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
-      -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
-      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+      -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
       border-radius: 0;
       color: #000;
       display: inline-block;
@@ -220,9 +220,9 @@ div[class*="featured"] {
     }
 
     a.btn {
-      -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
-      -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
-      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+      -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
       border-radius: 0;
       color: #ffffff;
       font-size: 1.9rem;
