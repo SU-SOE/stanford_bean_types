@@ -3,6 +3,7 @@ Stanford Bean Types
 7.x-2.9-alpha5                       2018-09-13
  -----------------------------------------------
  - Adding the Featured Block bean type.
+ - Hide the File Insert field on Postcard Block.
 
 7.x-2.9-alpha4                       2018-08-22
  -----------------------------------------------
