@@ -25,6 +25,7 @@ div[class*="featured"] {
 .fullwidth .featured-block {
   margin-left: 0;
   margin-right: 0;
+  width: 100%;
 }
 
 .featured-block {
@@ -157,8 +158,8 @@ div[class*="featured"] {
     }
 
     .field-name-field-p-featured-superhead {
-      font-size: 18px;
-      font-weight: 700;
+      font-size: 20px;
+      font-weight: 600;
 
       a {
         color: #fff;
@@ -194,8 +195,17 @@ div[class*="featured"] {
       a {
         color: #ffffff;
         text-decoration: underline;
-        -webkit-text-decoration-color: #ffbd54;
-        text-decoration-color: #ffbd54;
+        -webkit-text-decoration-color: #ff525c;
+        text-decoration-color: #ff525c;
+
+        &:hover {
+          -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+        }
+
+        &:after {
+          content: " ›";
+        }
       }
     }
 
@@ -206,7 +216,7 @@ div[class*="featured"] {
       -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
       border-radius: 0;
-      color: #000;
+      color: #333333;
       display: inline-block;
       font-size: 1.9rem;
       font-weight: 400;
@@ -216,6 +226,10 @@ div[class*="featured"] {
       padding: 0.8em 1.2em 0.9em;
       text-align: center;
       text-decoration: none;
+
+      &:after {
+        content: "";
+      }
 
       &:hover {
         background: #333333;
@@ -237,6 +251,10 @@ div[class*="featured"] {
       padding: 0.8em 1.2em 0.9em;
       text-align: center;
       text-decoration: none;
+
+      &:after {
+        content: "";
+      }
     }
   }
 }
@@ -276,12 +294,26 @@ div[class*="featured"] {
 }
 
 .paragraphs-item-p-featured.has-image {
-  .group-overlay-text {
+  div.group-overlay-text {
     background: transparent;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    .field-name-field-p-featured-superhead {
+      padding-top: 20px;
+
+      a {
+        color: #ffbd54;
+        text-decoration: none;
+
+        &:hover {
+          color: #ffffff;
+          text-decoration: underline;
+        }
+      }
+    }
 
     @media (max-width: 979px) {
 
@@ -291,15 +323,27 @@ div[class*="featured"] {
 
       .field-name-field-p-featured-superhead {
         padding-top: 20px;
+
+        a {
+          text-decoration: underline;
+          -webkit-text-decoration-color: #ffbd54;
+          text-decoration-color: #ffbd54;
+
+          &:hover {
+            color: #333333;
+            -webkit-text-decoration-color: #ffffff;
+            text-decoration-color: #ffffff;
+          }
+        }
       }
 
       .group-headline-h2,
       .field-name-field-p-featured-superhead,
       .field-name-field-p-featured-description {
-        color: #000;
+        color: #333333;
 
         a {
-          color: #000;
+          color: #333333;
         }
       }
     }
@@ -313,8 +357,21 @@ div[class*="featured"] {
     position: absolute;
     transform: none;
 
-    @media (max-width: 979px) {
+    .field-name-field-p-featured-superhead {
+      a {
+        text-decoration: underline;
+        -webkit-text-decoration-color: #ffbd54;
+        text-decoration-color: #ffbd54;
 
+        &:hover {
+          color: #333333;
+          -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+        }
+      }
+    }
+
+    @media (max-width: 979px) {
       margin-top: 1%;
       position: relative;
       width: auto;
@@ -328,10 +385,10 @@ div[class*="featured"] {
     .field-name-field-p-featured-superhead,
     .field-name-field-p-featured-description,
     .field-name-field-p-featured-more-link {
-      color: #000;
+      color: #333333;
 
       a {
-        color: #000;
+        color: #333333;
 
         &.btn {
           color: #fff;
@@ -386,7 +443,7 @@ div[class*="featured"] {
 
   .group-overlay-text {
     background: #fff;
-    color: #000;
+    color: #333333;
     display: block;
     float: right;
     height: auto;
@@ -407,10 +464,10 @@ div[class*="featured"] {
 
     .group-headline-h2,
     .field-name-field-p-featured-superhead {
-      color: #000;
+      color: #333333;
 
       a {
-        color: #000;
+        color: #333333;
       }
     }
 
