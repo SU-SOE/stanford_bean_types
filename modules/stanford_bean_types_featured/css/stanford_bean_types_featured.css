@@ -180,7 +180,7 @@ div[class*="featured"] .entity-paragraphs-item {
           text-decoration-color: #ffffff; }
         /* line 210, ../scss/stanford_bean_types_featured.scss */
         .paragraphs-item-p-featured div.group-overlay-text .field-name-field-p-featured-more-link a:after {
-          content: " ›"; }
+          content: ' ›'; }
         @media (max-width: 979px) {
           /* line 199, ../scss/stanford_bean_types_featured.scss */
           .paragraphs-item-p-featured div.group-overlay-text .field-name-field-p-featured-more-link a {
@@ -207,7 +207,7 @@ div[class*="featured"] .entity-paragraphs-item {
       .paragraphs-item-p-featured div.group-overlay-text a.btn-orange:after,
       .paragraphs-item-p-featured div.group-overlay-text a.btn-pink:after,
       .paragraphs-item-p-featured div.group-overlay-text a.btn-turquoise:after {
-        content: ""; }
+        content: ''; }
       /* line 242, ../scss/stanford_bean_types_featured.scss */
       .paragraphs-item-p-featured div.group-overlay-text a.btn-orange:hover,
       .paragraphs-item-p-featured div.group-overlay-text a.btn-pink:hover,
@@ -231,7 +231,7 @@ div[class*="featured"] .entity-paragraphs-item {
       text-decoration: none; }
       /* line 263, ../scss/stanford_bean_types_featured.scss */
       .paragraphs-item-p-featured div.group-overlay-text a.btn:after {
-        content: ""; }
+        content: ''; }
 
 /* line 272, ../scss/stanford_bean_types_featured.scss */
 .span6 .paragraphs-item-p-featured.has-image .field-name-field-p-featured-image {

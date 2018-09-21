@@ -208,7 +208,7 @@ div[class*="featured"] {
         }
 
         &:after {
-          content: " ›";
+          content: ' ›';
         }
 
         @media (max-width: 979px) {
@@ -236,7 +236,7 @@ div[class*="featured"] {
       text-decoration: none;
 
       &:after {
-        content: "";
+        content: '';
       }
 
       &:hover {
@@ -261,7 +261,7 @@ div[class*="featured"] {
       text-decoration: none;
 
       &:after {
-        content: "";
+        content: '';
       }
     }
   }
