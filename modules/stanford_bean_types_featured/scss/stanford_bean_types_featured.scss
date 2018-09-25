@@ -61,6 +61,30 @@ div[class*="featured"] {
     width: 74.5%;
     margin-left: 12.75%;
     margin-right: 12.75%;
+
+    .has-video {
+      .group-overlay-text {
+        float: left;
+        margin-left: 0;
+        padding: 6%;
+        position: relative;
+        text-align: center;
+        width: 88%;
+      }
+
+      .field-name-field-p-featured-image,
+      .field-name-field-p-featured-video {
+        float: left;
+        height: 400px;
+        width: 100%;
+      }
+    }
+  }
+
+  &.span6 {
+    width: 46.5%;
+    margin-left: 26.75%;
+    margin-right: 26.75%;
   }
 }
 
@@ -325,7 +349,6 @@ div[class*="featured"] {
     left: 0;
     margin-top: 1%;
     position: relative;
-    width: auto;
     transform: none;
 
     .field-name-field-p-featured-superhead {
@@ -434,6 +457,29 @@ div[class*="featured"] {
         margin: 0;
       }
     }
+  }
+}
+
+.fullwidth .span6 .paragraphs-item-p-featured.has-video {
+  div.group-overlay-text {
+    float: left;
+    margin-left: 0;
+    padding: 6%;
+    position: relative;
+    text-align: center;
+    width: 88%;
+
+    @media (max-width: 979px) {
+
+      width: auto;
+    }
+  }
+
+  .field-name-field-p-featured-image,
+  .field-name-field-p-featured-video {
+    float: left;
+    height: 400px;
+    width: 100%;
   }
 }
 
