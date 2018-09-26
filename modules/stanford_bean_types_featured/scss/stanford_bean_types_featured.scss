@@ -61,24 +61,6 @@ div[class*="featured"] {
     width: 74.5%;
     margin-left: 12.75%;
     margin-right: 12.75%;
-
-    .has-video {
-      .group-overlay-text {
-        float: left;
-        margin-left: 0;
-        padding: 6%;
-        position: relative;
-        text-align: center;
-        width: 88%;
-      }
-
-      .field-name-field-p-featured-image,
-      .field-name-field-p-featured-video {
-        float: left;
-        height: 400px;
-        width: 100%;
-      }
-    }
   }
 
   &.span6 {
