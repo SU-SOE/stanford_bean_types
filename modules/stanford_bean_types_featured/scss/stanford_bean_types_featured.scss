@@ -44,15 +44,6 @@ div[class*="featured"] {
   }
 }
 
-.row-fluid .block-bean.well.featured-block {
-  margin-bottom: 0;
-}
-
-.span6 .featured-block {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .front {
   .fullwidth {
     .paragraphs-item-p-featured {
@@ -75,6 +66,16 @@ div[class*="featured"] {
         @media (max-width: 979px) {
 
           margin: 0 22%;
+        }
+
+        @media (max-width: 580px) {
+
+          margin: 0 12%;
+        }
+
+        @media (max-width: 480px) {
+
+          margin: 0;
         }
       }
     }
@@ -104,6 +105,11 @@ div[class*="featured"] {
 
           font-size: 28px;
         }
+
+        @media (max-width: 480px) {
+
+          font-size: 24px;
+        }
       }
     }
 
@@ -127,6 +133,11 @@ div[class*="featured"] {
 
             margin: 0 8%;
           }
+
+          @media (max-width: 480px) {
+
+            font-size: 16px;
+          }
         }
       }
     }
@@ -142,6 +153,11 @@ div[class*="featured"] {
       @media (max-width: 1199px) {
 
         font-size: 18px;
+      }
+
+      @media (max-width: 480px) {
+
+        font-size: 16px;
       }
     }
   }
@@ -173,13 +189,20 @@ div[class*="featured"] {
   }
 }
 
-@media (max-width: 979px) {
+.paragraphs-item-p-featured > .content .field-name-field-p-featured-image img {
+  @media (max-width: 979px) {
 
-  .paragraphs-item-p-featured > .content .field-name-field-p-featured-image img {
     max-height: 250px;
     min-height: 200px;
   }
+
+  @media (max-width: 767px) {
+
+    max-height: 150px;
+    min-height: 100px;
+  }
 }
+
 
 .paragraphs-item-p-featured {
   margin-bottom: 0;
@@ -538,21 +561,6 @@ div[class*="featured"] {
   }
 }
 
-.span6 {
-  .paragraphs-item-p-featured.has-image.has-video {
-    .field-name-field-p-featured-image,
-    .field-name-field-p-featured-video {
-      width: 100%;
-    }
-
-    .group-overlay-text {
-      background: transparent;
-      position: relative;
-      width: 100%;
-    }
-  }
-}
-
 .paragraphs-item-p-featured.has-video {
   background: #fff;
 
@@ -560,7 +568,7 @@ div[class*="featured"] {
   .field-name-field-p-featured-video {
     float: left;
     height: 400px;
-    width: 61%;
+    width: 100%;
 
     @media (max-width: 979px) {
 
@@ -611,11 +619,39 @@ div[class*="featured"] {
       }
     }
 
+    .field-name-field-p-featured-superhead a:hover {
+      text-decoration: underline;
+      color: #333333;
+    }
+
     .field-name-field-p-featured-description {
       .field-item {
         margin: 0;
       }
     }
+  }
+}
+
+.fullwidth .span6 .paragraphs-item-p-featured.has-video {
+  div.group-overlay-text {
+    float: left;
+    margin-left: 0;
+    padding: 6%;
+    position: relative;
+    text-align: center;
+    width: 88%;
+
+    @media (max-width: 979px) {
+
+      width: auto;
+    }
+  }
+
+  .field-name-field-p-featured-image,
+  .field-name-field-p-featured-video {
+    float: left;
+    height: 400px;
+    width: 100%;
   }
 }
 
@@ -683,6 +719,8 @@ div[class*="featured"] {
       @media (max-width: 580px) {
 
         font-size: 26px;
+        margin: 10px 0;
+        width: 100%;
       }
     }
 
@@ -701,14 +739,56 @@ div[class*="featured"] {
   }
 
   &.has-video {
+    background: #fff;
+
+    .field-name-field-p-featured-image,
+    .field-name-field-p-featured-video {
+      float: left;
+      height: 400px;
+      width: 61%;
+
+      @media (max-width: 979px) {
+
+        width: 100%;
+      }
+    }
+
     div.group-overlay-text {
-      margin-top: 0;
-      padding: 3% 3% 0;
+      position: absolute;
+      padding: 3% 3% 0;		       background: #fff;
+      color: #000;
+      display: block;
+      float: right;
+      height: auto;
+      margin-left: 61%;
+      padding: 4% 6% 0;
+      text-align: left;
+      top: 4%;
+      width: 27%;
+
+      @media (max-width: 979px) {
+
+        float: left;
+        margin-left: 0;
+        padding: 6%;
+        position: relative;
+        text-align: center;
+        width: 88%;
+      }
+
+      .group-headline-h2,
+      .field-name-field-p-featured-superhead {
+        color: #000;
+
+        a {
+          color: #000;
+        }
+      }
 
       .group-headline-h2 {
         font-size: 32px;
         margin: 30px 0 0;
-        width: auto;
+        width: 100%;
 
         @media (max-width: 979px) {
 
