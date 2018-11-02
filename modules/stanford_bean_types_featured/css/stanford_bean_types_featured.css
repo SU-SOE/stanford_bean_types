@@ -743,9 +743,8 @@ div[class*="featured"] .entity-paragraphs-item {
         height: 300px; } }
   /* line 886, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text {
-    position: absolute;
-    padding: 3% 3% 0;
     background: #fff;
+    position: absolute;
     color: #000;
     display: block;
     float: right;

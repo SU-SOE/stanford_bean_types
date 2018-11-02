@@ -145,7 +145,7 @@ div[class*="featured"] {
 }
 
 .front .span9 .paragraphs-items-field-featured-block-featured-full .paragraphs-item-p-featured,
-.span9 .paragraphs-items-field-featured-block-featured-full .paragraphs-item-p-featured{
+.span9 .paragraphs-items-field-featured-block-featured-full .paragraphs-item-p-featured {
   div.group-overlay-text {
     .field-name-field-p-featured-superhead {
       font-size: 20px;
@@ -884,8 +884,8 @@ div[class*="featured"] {
     }
 
     div.group-overlay-text {
+      background: #fff;
       position: absolute;
-      padding: 3% 3% 0;		       background: #fff;
       color: #000;
       display: block;
       float: right;
