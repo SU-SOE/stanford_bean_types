@@ -192,14 +192,14 @@ div[class*="featured"] {
 .paragraphs-item-p-featured > .content .field-name-field-p-featured-image img {
   @media (max-width: 979px) {
 
-    max-height: 250px;
+    max-height: 400px;
     min-height: 200px;
   }
 
   @media (max-width: 767px) {
 
-    max-height: 150px;
-    min-height: 100px;
+    max-height: 300px;
+    min-height: 200px;
   }
 }
 
@@ -634,9 +634,18 @@ div[class*="featured"] {
       }
     }
 
-    .field-name-field-p-featured-superhead a:hover {
-      text-decoration: underline;
-      color: #333333;
+    .field-name-field-p-featured-superhead {
+      a {
+        text-decoration: underline;
+        -webkit-text-decoration-color: #ffbd54;
+        text-decoration-color: #ffbd54;
+
+        &:hover {
+          color: #333333;
+          -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+        }
+      }
     }
 
     .field-name-field-p-featured-description {
@@ -688,8 +697,23 @@ div[class*="featured"] {
           width: 88%;
         }
 
-        .group-headline-h2,
         .field-name-field-p-featured-superhead {
+          padding-top: 0;
+
+          a {
+            text-decoration: underline;
+            -webkit-text-decoration-color: #ffbd54;
+            text-decoration-color: #ffbd54;
+
+            &:hover {
+              color: #333333;
+              -webkit-text-decoration-color: #ffffff;
+              text-decoration-color: #ffffff;
+            }
+          }
+        }
+
+        .group-headline-h2 {
           color: #000;
 
           a {
@@ -701,6 +725,11 @@ div[class*="featured"] {
           font-size: 32px;
           margin: 30px 0 20px;
           width: 100%;
+          color: #000;
+
+          a {
+            color: #000;
+          }
 
           @media (max-width: 979px) {
 
