@@ -675,7 +675,7 @@ div[class*="featured"] .entity-paragraphs-item {
       .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-orange,
       .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-pink,
       .fullwidth .paragraphs-item-p-featured div.group-overlay-text a.btn-turquoise {
-        margin: 10px 0 10px;
+        margin: 10px 0;
         padding: 0.8em 1.2em 0.9em; } }
   /* line 807, ../scss/stanford_bean_types_featured.scss */
   .fullwidth .paragraphs-item-p-featured div.group-overlay-text .field-name-field-p-featured-description {
