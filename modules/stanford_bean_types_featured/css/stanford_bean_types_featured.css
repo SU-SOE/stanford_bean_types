@@ -774,24 +774,32 @@ div[class*="featured"] .entity-paragraphs-item {
     /* line 918, ../scss/stanford_bean_types_featured.scss */
     .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .group-headline-h2 {
       font-size: 32px;
-      margin: 30px 0 20px;
+      margin: 25px 0 20px;
       width: 100%; }
       @media (max-width: 979px) {
         /* line 918, ../scss/stanford_bean_types_featured.scss */
         .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .group-headline-h2 {
           font-size: 32px; } }
-    /* line 929, ../scss/stanford_bean_types_featured.scss */
+      /* line 928, ../scss/stanford_bean_types_featured.scss */
+      .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .group-headline-h2 a {
+        font-size: 30px; }
+    /* line 933, ../scss/stanford_bean_types_featured.scss */
     .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .field-name-field-p-featured-description {
-      font-size: 22px; }
+      font-size: 20px;
+      margin: 10px 0 0; }
+      @media (max-width: 1200px) {
+        /* line 933, ../scss/stanford_bean_types_featured.scss */
+        .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .field-name-field-p-featured-description {
+          font-size: 18px; } }
       @media (max-width: 979px) {
-        /* line 929, ../scss/stanford_bean_types_featured.scss */
+        /* line 933, ../scss/stanford_bean_types_featured.scss */
         .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .field-name-field-p-featured-description {
           font-size: 20px; } }
-    /* line 938, ../scss/stanford_bean_types_featured.scss */
+    /* line 948, ../scss/stanford_bean_types_featured.scss */
     .fullwidth .paragraphs-item-p-featured.has-video div.group-overlay-text .field-name-field-p-featured-description .field-item {
       margin: 0; }
 
-/* line 945, ../scss/stanford_bean_types_featured.scss */
+/* line 955, ../scss/stanford_bean_types_featured.scss */
 .entity-paragraphs-item iframe[src*="youtube"],
 .entity-paragraphs-item iframe[src*="vimeo"] {
   height: 400px; }
