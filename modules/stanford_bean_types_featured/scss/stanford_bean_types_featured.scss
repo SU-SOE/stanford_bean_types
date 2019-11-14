@@ -237,15 +237,18 @@ div[class*="featured"] {
       width: 100%;
 
       .opacity-none & {
+
         opacity: unset;
       }
 
       .opacity-3 & {
+
         opacity: 0.3;
       }
 
       .opacity &,
       .opacity-5 & {
+
         opacity: 0.5;
       }
 
