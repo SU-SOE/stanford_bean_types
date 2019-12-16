@@ -10,6 +10,8 @@ This module provides default BEAN types. Contained in this feature are the Stanf
 **Stanford Banner**
 This bean type provides a block with the ability to create image banners. Users can add an image, credits, source information, and a caption.
 
+The following classes give the site owner control over the opacity on banner images: opacity-none, opacity-5, opacity-3, and opacity. 
+
 **Stanford Call-to-action**
 This bean type provides a block with a background image, icon, title, and link.
 

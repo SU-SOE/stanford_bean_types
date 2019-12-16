@@ -1,10 +1,15 @@
 Stanford Bean Types
 
+7.x-2.9-alpha7                       2029-12-16
+ -----------------------------------------------
+ - Add opacity classes to give site owner control over
+ the opacity on banner images: opacity-none, opacity-5, opacity-3, and opacity
+
 7.x-2.9-alpha6                       2018-11-27
  -----------------------------------------------
  - Style Tweaks to Featured Content Block.
  - Fixed the featured image/video block with css/js fixin for Firefox and IE 11.
- 
+
 7.x-2.9-alpha5                       2018-09-13
  -----------------------------------------------
  - Adding the Featured Block bean type.
